@@ -9,7 +9,7 @@ func Provider() terraform.ResourceProvider {
 	return &schema.Provider{
 		Schema: map[string]*schema.Schema{},
 		ResourcesMap: map[string]*schema.Resource{
-			"iam_access_key": resourceIamAccessKey(),
+			"awscreds_iam_access_key": resourceIamAccessKey(),
 		},
 		ConfigureFunc: configure,
 	}
