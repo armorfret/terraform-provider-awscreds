@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/hashicorp/terraform/builtin/providers/aws"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
 )
@@ -17,40 +18,4 @@ func Provider() terraform.ResourceProvider {
 
 func configure(d *schema.ResourceData) (interface{}, error) {
 	return nil, nil
-}
-
-func resourceIamAccessKey() *schema.Resource {
-	return &schema.Resource{
-		Create: createIamAccessKey,
-		Read:   readIamAccessKey,
-		Update: updateIamAccessKey,
-		Delete: deleteIamAccessKey,
-		Schema: map[string]*schema.Schema{
-			"user": &schema.Schema{
-				Type:     schema.TypeString,
-				Required: true,
-				ForceNew: true,
-			},
-			"file": &schema.Schema{
-				Type:     schema.TypeString,
-				Required: true,
-			},
-		},
-	}
-}
-
-func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return nil
-}
-
-func readIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return nil
-}
-
-func updateIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return nil
-}
-
-func deleteIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return nil
 }
