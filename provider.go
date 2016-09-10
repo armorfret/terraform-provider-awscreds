@@ -17,5 +17,5 @@ func Provider() terraform.ResourceProvider {
 }
 
 func configure(d *schema.ResourceData) (interface{}, error) {
-	return aws.Provider, nil
+	return aws.Provider(), nil
 }
