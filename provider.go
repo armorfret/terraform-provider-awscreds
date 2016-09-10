@@ -16,6 +16,31 @@ func Provider() terraform.ResourceProvider {
 	}
 }
 
+type Wrapper struct {
+	provider *schema.Provider
+	config   interface{}
+}
+
+func (w *Wrapper) init(p *schema.Provider, d *schema.ResourceData) error {
+	w.provider = p
+	config, err := p.ConfigureFunc(d)
+	if err != nil {
+		return err
+	}
+	w.config = config
+	return nil
+}
+
+func (w *Wrapper) resource(name string) *schema.Resource {
+	return w.provider.ResourcesMap[name]
+}
+
 func configure(d *schema.ResourceData) (interface{}, error) {
-	return aws.Provider(), nil
+	var wrapper Wrapper
+	provider := aws.Provider()
+	cast := provider.(*schema.Provider)
+	if err := wrapper.init(cast, d); err != nil {
+		return nil, err
+	}
+	return wrapper, nil
 }

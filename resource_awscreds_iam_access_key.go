@@ -26,7 +26,7 @@ func resourceIamAccessKey() *schema.Resource {
 }
 
 func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	if err := proxy_method(m).Create(d, m); err != nil {
+	if err := real_resource(m).Create(d, real_config(m)); err != nil {
 		return err
 	}
 	secret := d.Get("secret").(string)
@@ -41,13 +41,17 @@ func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
 }
 
 func readIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return proxy_method(m).Read(d, m)
+	return real_resource(m).Read(d, real_config(m))
 }
 
 func deleteIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return proxy_method(m).Delete(d, m)
+	return real_resource(m).Delete(d, real_config(m))
 }
 
-func proxy_method(m interface{}) *schema.Resource {
-	return m.(*schema.Provider).ResourcesMap["aws_iam_access_key"]
+func real_resource(m interface{}) *schema.Resource {
+	return m.(*Wrapper).resource("aws_iam_access_key")
+}
+
+func real_config(m interface{}) interface{} {
+	return m.(*Wrapper).config
 }
