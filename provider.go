@@ -8,7 +8,7 @@ import (
 
 func Provider() terraform.ResourceProvider {
 	return &schema.Provider{
-		Schema: map[string]*schema.Schema{},
+		Schema: aws_provider().Schema,
 		ResourcesMap: map[string]*schema.Resource{
 			"awscreds_iam_access_key": resourceIamAccessKey(),
 		},
@@ -16,31 +16,14 @@ func Provider() terraform.ResourceProvider {
 	}
 }
 
-type Wrapper struct {
-	provider *schema.Provider
-	config   interface{}
-}
-
-func (w *Wrapper) init(p *schema.Provider, d *schema.ResourceData) error {
-	w.provider = p
-	config, err := p.ConfigureFunc(d)
-	if err != nil {
-		return err
-	}
-	w.config = config
-	return nil
-}
-
-func (w *Wrapper) resource(name string) *schema.Resource {
-	return w.provider.ResourcesMap[name]
-}
-
 func configure(d *schema.ResourceData) (interface{}, error) {
 	var wrapper Wrapper
-	provider := aws.Provider()
-	cast := provider.(*schema.Provider)
-	if err := wrapper.init(cast, d); err != nil {
+	if err := wrapper.init(aws_provider(), d); err != nil {
 		return nil, err
 	}
 	return wrapper, nil
+}
+
+func aws_provider() *schema.Provider {
+	return resolve_provider(aws.Provider)
 }

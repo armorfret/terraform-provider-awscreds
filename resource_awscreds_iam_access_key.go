@@ -5,24 +5,26 @@ import (
 	"io/ioutil"
 )
 
+var keys_to_suppress = []string{"secret", "ses_smtp_password"}
+
 func resourceIamAccessKey() *schema.Resource {
 	return &schema.Resource{
 		Create: createIamAccessKey,
 		Read:   readIamAccessKey,
 		Delete: deleteIamAccessKey,
-		Schema: map[string]*schema.Schema{
-			"user": &schema.Schema{
-				Type:     schema.TypeString,
-				Required: true,
-				ForceNew: true,
-			},
-			"file": &schema.Schema{
-				Type:     schema.TypeString,
-				Required: true,
-				ForceNew: true,
-			},
-		},
+		Schema: schemaIamAccessKey(),
 	}
+}
+
+func schemaIamAccessKey() map[string]*schema.Schema {
+	resource := aws_provider().ResourcesMap["aws_iam_access_key"]
+	iamschema := resource.Schema
+	iamschema["file"] = &schema.Schema{
+		Type:     schema.TypeString,
+		Required: true,
+		ForceNew: true,
+	}
+	return iamschema
 }
 
 func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
@@ -34,8 +36,10 @@ func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
 	if err := ioutil.WriteFile(file, []byte(secret), 0600); err != nil {
 		return err
 	}
-	if err := d.Set("secret", ""); err != nil {
-		return err
+	for _, key := range keys_to_suppress {
+		if err := d.Set(key, ""); err != nil {
+			return err
+		}
 	}
 	return nil
 }
@@ -49,9 +53,9 @@ func deleteIamAccessKey(d *schema.ResourceData, m interface{}) error {
 }
 
 func real_resource(m interface{}) *schema.Resource {
-	return m.(*Wrapper).resource("aws_iam_access_key")
+	return m.(Wrapper).resource("aws_iam_access_key")
 }
 
 func real_config(m interface{}) interface{} {
-	return m.(*Wrapper).config
+	return m.(Wrapper).config
 }
