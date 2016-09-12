@@ -31,11 +31,16 @@ func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
 	if err := real_resource(m).Create(d, real_config(m)); err != nil {
 		return err
 	}
+
+	access := d.Id()
 	secret := d.Get("secret").(string)
+	contents := access + "\n" + secret + "\n"
+
 	file := d.Get("file").(string)
-	if err := ioutil.WriteFile(file, []byte(secret), 0600); err != nil {
+	if err := ioutil.WriteFile(file, []byte(contents), 0600); err != nil {
 		return err
 	}
+
 	for _, key := range keys_to_suppress {
 		if err := d.Set(key, ""); err != nil {
 			return err
