@@ -16,6 +16,30 @@ providers {
 }
 ```
 
+Now you can use the provider in your terraform files to create IAM users:
+
+```
+provider "aws" {
+    region = "us-east-1"
+}
+
+provider "awscreds" {
+    region = "us-east-1"
+}
+
+resource "aws_iam_user" "my_cool_user" {
+    name = "my_cool_user"
+
+resource "awscreds_iam_access_key" {
+    user = "${aws_iam_user.my_cool_user.name}"
+    file = "./secret_creds"
+}
+```
+
+The "awscreds" provider takes all the same options as the "aws" provider, and has the same behavior (it checks the same default environment variables and configs for credentials).
+
+The "awscreds_iam_access_key" resource accepts the same options as the "aws_iam_access_key" resource (currently just "user"), and additionally requires the "file" option, which should be the path in which to store the access key and secret key. They are stored newline-delimited in the file.
+
 ## Installation
 
 ```
