@@ -9,7 +9,7 @@ source(
 build do
   gopath = tmpdir(:gopath)
   run 'go get -d', 'GOPATH' => gopath
-  run "go build", 'GOPATH' => gopath
+  run 'go build -o terraform-provider-awscreds', 'GOPATH' => gopath
   run "mkdir -p #{releasedir}/usr/bin"
   run "cp terraform-provider-awscreds #{releasedir}/usr/bin/"
 end
