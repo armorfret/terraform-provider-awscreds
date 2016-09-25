@@ -1,8 +1,14 @@
 name 'terraform-provider-awscreds'
 org 'akerl'
 
+source(
+  type: 'git',
+  path: '.'
+)
+
 build do
   gopath = tmpdir(:gopath)
+  run 'go get -d', 'GOPATH' => gopath
   run "go build", 'GOPATH' => gopath
   run "mkdir -p #{releasedir}/usr/bin"
   run "cp terraform-provider-awscreds #{releasedir}/usr/bin/"
