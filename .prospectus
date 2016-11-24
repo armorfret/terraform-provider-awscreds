@@ -1,0 +1,16 @@
+item do
+  name 'aws-account::terraform'
+
+  expected do
+    github_release
+    repo 'hashicorp/terraform'
+    regex /v?([\d.]+)/
+  end
+
+  actual do
+    static
+    dir = 'vendor/github.com/hashicorp/terraform/.git'
+    raw = `git --git-dir=#{dir} describe --tags --abbrev=0 2>/dev/null`.chomp
+    set raw.sub('v', '')
+  end
+end
