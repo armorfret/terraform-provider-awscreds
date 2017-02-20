@@ -1,6 +1,6 @@
 [submodule "meta"]
 	path = meta
-	url = git://github.com/amylum/pkgforge-helper
+	url = https://github.com/amylum/pkgforge-helper
 [submodule "vendor/github.com/hashicorp/terraform"]
 	path = vendor/github.com/hashicorp/terraform
-	url = git://github.com/hashicorp/terraform
+	url = https://github.com/hashicorp/terraform
