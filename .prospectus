@@ -1,16 +1,26 @@
+Prospectus.extra_dep('file', 'prospectus_circleci')
+
 item do
-  name 'terraform-provider-awscreds::terraform'
+  noop
 
-  expected do
-    github_release
-    repo 'hashicorp/terraform'
-    regex /v?([\d.]+)/
-  end
+  extend ProspectusCircleci::Build.new('akerl/terraform-provider-awscreds')
 
-  actual do
-    static
-    dir = 'vendor/github.com/hashicorp/terraform/.git'
-    raw = `git --git-dir=#{dir} describe --tags --abbrev=0 2>/dev/null`.chomp
-    set raw.sub('v', '')
+  deps do
+    item do
+      name 'terraform'
+
+      expected do
+        github_release
+        repo 'hashicorp/terraform'
+        regex /v?([\d.]+)/
+      end
+
+      actual do
+        static
+        dir = 'vendor/github.com/hashicorp/terraform/.git'
+        raw = `git --git-dir=#{dir} describe --tags --abbrev=0 2>/dev/null`.chomp
+        set raw.sub('v', '')
+      end
+    end
   end
 end
