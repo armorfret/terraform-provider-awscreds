@@ -24,6 +24,6 @@ func (w Wrapper) resource(name string) *schema.Resource {
 	return w.provider.ResourcesMap[name]
 }
 
-func resolve_provider(provider func() terraform.ResourceProvider) *schema.Provider {
-	return provider().(*schema.Provider)
+func resolve_provider(provider terraform.ResourceProvider) *schema.Provider {
+	return provider.(*schema.Provider)
 }

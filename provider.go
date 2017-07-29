@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/aws"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
+	"github.com/terraform-providers/terraform-provider-aws/aws"
 )
 
 func Provider() terraform.ResourceProvider {
@@ -25,5 +25,6 @@ func configure(d *schema.ResourceData) (interface{}, error) {
 }
 
 func aws_provider() *schema.Provider {
-	return resolve_provider(aws.Provider)
+	provider := aws.Provider()
+	return resolve_provider(provider)
 }
