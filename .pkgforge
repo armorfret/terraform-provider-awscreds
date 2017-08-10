@@ -7,12 +7,23 @@ source(
 )
 
 build do
-  gopath = tmpdir(:gopath)
-  run 'go get -d', 'GOPATH' => gopath
-  run 'go build -o terraform-provider-awscreds', 'GOPATH' => gopath
-  run "mkdir -p #{releasedir}/usr/bin"
-  run "cp terraform-provider-awscreds #{releasedir}/usr/bin/"
+  make
+  cp 'bin'
 end
+
+package(
+  type: 'file',
+  artifacts: [
+    {
+      source: 'bin/terraform-provider-awscreds_darwin',
+      name: 'terraform-provider-awscreds_darwin'
+    },
+    {
+      source: 'bin/terraform-provider-awscreds_linux',
+      name: 'terraform-provider-awscreds_linux'
+    }
+  ]
+)
 
 test do
   # TODO: add tests
