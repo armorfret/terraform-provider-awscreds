@@ -1,4 +1,4 @@
-package main
+package provider
 
 import (
 	"github.com/hashicorp/terraform/helper/schema"
@@ -58,9 +58,9 @@ func deleteIamAccessKey(d *schema.ResourceData, m interface{}) error {
 }
 
 func realResource(m interface{}) *schema.Resource {
-	return m.(Wrapper).resource("aws_iam_access_key")
+	return m.(wrapper).resource("aws_iam_access_key")
 }
 
 func realConfig(m interface{}) interface{} {
-	return m.(Wrapper).config
+	return m.(wrapper).config
 }

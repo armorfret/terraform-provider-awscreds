@@ -1,11 +1,9 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/akerl/terraform-provider-awscreds/provider"
 )
 
 func main() {
-	plugin.Serve(&plugin.ServeOpts{
-		ProviderFunc: Provider,
-	})
+	provider.Serve()
 }
