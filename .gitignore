@@ -1,3 +1,6 @@
 terraform-provider-awscreds
-.github
-pkg
+/.gopath
+/bin
+/vendor/
+/pkg/
+/.github
