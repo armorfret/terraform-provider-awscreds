@@ -5,6 +5,7 @@ import (
 	"github.com/hashicorp/terraform/terraform"
 )
 
+// Wrapper object defines the upstream provider and config
 type Wrapper struct {
 	provider *schema.Provider
 	config   interface{}
@@ -24,6 +25,6 @@ func (w Wrapper) resource(name string) *schema.Resource {
 	return w.provider.ResourcesMap[name]
 }
 
-func resolve_provider(provider terraform.ResourceProvider) *schema.Provider {
+func resolveProvider(provider terraform.ResourceProvider) *schema.Provider {
 	return provider.(*schema.Provider)
 }

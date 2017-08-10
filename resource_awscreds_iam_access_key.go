@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 )
 
-var keys_to_suppress = []string{"secret", "ses_smtp_password"}
+var keysToSuppress = []string{"secret", "ses_smtp_password"}
 
 func resourceIamAccessKey() *schema.Resource {
 	return &schema.Resource{
@@ -17,7 +17,7 @@ func resourceIamAccessKey() *schema.Resource {
 }
 
 func schemaIamAccessKey() map[string]*schema.Schema {
-	resource := aws_provider().ResourcesMap["aws_iam_access_key"]
+	resource := awsProvider().ResourcesMap["aws_iam_access_key"]
 	iamschema := resource.Schema
 	iamschema["file"] = &schema.Schema{
 		Type:     schema.TypeString,
@@ -28,14 +28,14 @@ func schemaIamAccessKey() map[string]*schema.Schema {
 }
 
 func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	if err := real_resource(m).Create(d, real_config(m)); err != nil {
+	if err := realResource(m).Create(d, realConfig(m)); err != nil {
 		return err
 	}
 
 	access := d.Id()
 	secret := d.Get("secret").(string)
 
-	for _, key := range keys_to_suppress {
+	for _, key := range keysToSuppress {
 		if err := d.Set(key, ""); err != nil {
 			return err
 		}
@@ -50,17 +50,17 @@ func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
 }
 
 func readIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return real_resource(m).Read(d, real_config(m))
+	return realResource(m).Read(d, realConfig(m))
 }
 
 func deleteIamAccessKey(d *schema.ResourceData, m interface{}) error {
-	return real_resource(m).Delete(d, real_config(m))
+	return realResource(m).Delete(d, realConfig(m))
 }
 
-func real_resource(m interface{}) *schema.Resource {
+func realResource(m interface{}) *schema.Resource {
 	return m.(Wrapper).resource("aws_iam_access_key")
 }
 
-func real_config(m interface{}) interface{} {
+func realConfig(m interface{}) interface{} {
 	return m.(Wrapper).config
 }

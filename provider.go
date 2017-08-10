@@ -6,9 +6,10 @@ import (
 	"github.com/terraform-providers/terraform-provider-aws/aws"
 )
 
+// Provider exposes the custom Terraform provider
 func Provider() terraform.ResourceProvider {
 	return &schema.Provider{
-		Schema: aws_provider().Schema,
+		Schema: awsProvider().Schema,
 		ResourcesMap: map[string]*schema.Resource{
 			"awscreds_iam_access_key": resourceIamAccessKey(),
 		},
@@ -18,13 +19,13 @@ func Provider() terraform.ResourceProvider {
 
 func configure(d *schema.ResourceData) (interface{}, error) {
 	var wrapper Wrapper
-	if err := wrapper.init(aws_provider(), d); err != nil {
+	if err := wrapper.init(awsProvider(), d); err != nil {
 		return nil, err
 	}
 	return wrapper, nil
 }
 
-func aws_provider() *schema.Provider {
+func awsProvider() *schema.Provider {
 	provider := aws.Provider()
-	return resolve_provider(provider)
+	return resolveProvider(provider)
 }
