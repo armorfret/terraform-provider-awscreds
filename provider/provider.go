@@ -3,8 +3,8 @@ package provider
 import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/plugin"
+	"github.com/hashicorp/terraform/terraform"
 	"github.com/terraform-providers/terraform-provider-aws/aws"
-	"github.com/terraform-providers/terraform-provider-aws/vendor/github.com/hashicorp/terraform/terraform"
 )
 
 // Serve up the plugin
