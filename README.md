@@ -35,7 +35,7 @@ The "awscreds_iam_access_key" resource accepts the same options as the "aws_iam_
 
 ## Installation
 
-Go to https://github.com/akerl/terraform-provider-awscreds/releases and download the latest release for your platform, and plop it into your $PATH as `terraform-provider-awscreds`
+Go to https://github.com/akerl/terraform-provider-awscreds/releases and download the latest release for your platform, and plop it into your `~/.terraform.d/plugins` as `terraform-provider-awscreds`
 
 ### Development
 
