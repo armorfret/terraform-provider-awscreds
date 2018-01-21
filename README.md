@@ -9,15 +9,7 @@ Terraform Provider to generate IAM access keys without storing the secret in the
 
 ## Usage
 
-Add the provider to your ~/.terraformrc file:
-
-```
-providers {
-    awscreds = "/path/to/terraform-provider-awscreds"
-}
-```
-
-Now you can use the provider in your terraform files to create IAM users:
+You can use the provider in your terraform files to create IAM users:
 
 ```
 provider "aws" {
@@ -43,12 +35,11 @@ The "awscreds_iam_access_key" resource accepts the same options as the "aws_iam_
 
 ## Installation
 
-```
-git clone git://github.com/akerl/terraform-provider-awscreds
-cd terraform-provider-awscreds
-go build
-# Optionally, move ./terraform-provider-awscreds into your $PATH somewhere, like /usr/local/bin
-```
+Go to https://github.com/akerl/terraform-provider-awscreds/releases and download the latest release for your platform, and plop it into your $PATH as `terraform-provider-awscreds`
+
+### Development
+
+To build from source, clone this repo and run `make` inside it.
 
 ## License
 
