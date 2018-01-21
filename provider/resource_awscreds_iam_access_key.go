@@ -43,10 +43,7 @@ func createIamAccessKey(d *schema.ResourceData, m interface{}) error {
 
 	contents := access + "\n" + secret + "\n"
 	file := d.Get("file").(string)
-	if err := ioutil.WriteFile(file, []byte(contents), 0600); err != nil {
-		return err
-	}
-	return nil
+	return ioutil.WriteFile(file, []byte(contents), 0600)
 }
 
 func readIamAccessKey(d *schema.ResourceData, m interface{}) error {
