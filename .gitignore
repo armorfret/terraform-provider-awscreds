@@ -1,4 +1,3 @@
-terraform-provider-awscreds
 /.gopath
 /bin
 /vendor/

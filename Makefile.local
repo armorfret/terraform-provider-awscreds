@@ -1,0 +1,2 @@
+PACKAGE = terraform-provider-awscreds
+NAMESPACE = github.com/akerl
