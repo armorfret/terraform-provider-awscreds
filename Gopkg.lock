@@ -112,8 +112,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "ce48e67ca697079662aee65a13202f37a185962b"
-  version = "v1.13.6"
+  revision = "9a79087b1148376f4dd860c188c948479e2def3b"
+  version = "v1.13.7"
 
 [[projects]]
   branch = "master"
@@ -200,13 +200,13 @@
   branch = "master"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
-  revision = "baa83ead6ff956b3f99bcd609ae3499c028e019e"
+  revision = "956b76edd382134e7e88a07f2d210bafcc730cce"
 
 [[projects]]
   branch = "master"
   name = "github.com/hashicorp/go-uuid"
   packages = ["."]
-  revision = "64130c7a86d732268a38cb04cfbaf0cc987fda98"
+  revision = "27454136f0364f2d44b1276c552d69105cf8c498"
 
 [[projects]]
   branch = "master"
@@ -442,7 +442,7 @@
     "cty/json",
     "cty/set"
   ]
-  revision = "7166230c635fa24bbe613c5a53e75ad15c42c059"
+  revision = "307ae587e007cc89e826a574fff8f5a1c0de97bb"
 
 [[projects]]
   branch = "master"
@@ -458,7 +458,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "8c653846df49742c4c85ec37e5d9f8d3ba657895"
+  revision = "91a49db82a88618983a78a06c1cbd4e00ab749ab"
 
 [[projects]]
   branch = "master"
