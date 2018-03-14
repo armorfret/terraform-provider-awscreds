@@ -113,8 +113,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "1f8fb9d0919e5a58992207db9512a03f76ab0274"
-  version = "v1.13.12"
+  revision = "28d0127967e59b0c41cede1e8d548ed85374bbbc"
+  version = "v1.13.14"
 
 [[projects]]
   branch = "master"
@@ -201,7 +201,7 @@
   branch = "master"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
-  revision = "956b76edd382134e7e88a07f2d210bafcc730cce"
+  revision = "8068b0bdcfb702b4ab69d0e42c6023b4996c3026"
 
 [[projects]]
   branch = "master"
@@ -304,7 +304,7 @@
   branch = "master"
   name = "github.com/hashicorp/yamux"
   packages = ["."]
-  revision = "683f49123a33db61abfb241b7ac5e4af4dc54d55"
+  revision = "2658be15c5f05e76244154714161f17e3e77de2e"
 
 [[projects]]
   branch = "master"
@@ -459,7 +459,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "182114d582623c1caa54f73de9c7224e23a48487"
+  revision = "21652f85b0fdddb6c2b6b77a5beca5c5a908174a"
 
 [[projects]]
   branch = "master"
@@ -475,13 +475,13 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "ae89d30ce0c63142b652837da33d782e2b0a9b25"
+  revision = "e0c57d8f86c17f0724497efcb3bc617e82834821"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "c28acc882ebcbfbe8ce9f0f14b9ac26ee138dd51"
+  revision = "89ac7f292d17a339edab4de8efcba5d8672ff661"
 
 [[projects]]
   name = "golang.org/x/text"
