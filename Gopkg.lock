@@ -29,6 +29,7 @@
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
+    "aws/arn",
     "aws/awserr",
     "aws/awsutil",
     "aws/client",
@@ -310,7 +311,7 @@
   branch = "master"
   name = "github.com/jen20/awspolicyequivalence"
   packages = ["."]
-  revision = "f756a6a19e53e9dbfa4b05748b66e7ff79627fed"
+  revision = "9fbcaca9f9f868b9560463d0790aae33b2322945"
 
 [[projects]]
   name = "github.com/jmespath/go-jmespath"
@@ -508,7 +509,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "df60624c1e9b9d2973e889c7a1cff73155da81c4"
+  revision = "f8c8703595236ae70fdf8789ecb656ea0bcdcf46"
 
 [[projects]]
   name = "google.golang.org/grpc"
