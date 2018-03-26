@@ -444,7 +444,7 @@
     "cty/json",
     "cty/set"
   ]
-  revision = "148e502b8632c6f32ca9a41b96bbe858b5e2582b"
+  revision = "b7d1e828d86e99040528ce06ce970382c7813f96"
 
 [[projects]]
   branch = "master"
