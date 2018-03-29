@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "fb28e64a158b01377883badcc176216ac0fde3dd"
-  version = "v1.13.21"
+  revision = "bb206ce0d6a50da7807694a823aed5c601c57ce0"
+  version = "v1.13.23"
 
 [[projects]]
   branch = "master"
@@ -444,7 +444,7 @@
     "cty/json",
     "cty/set"
   ]
-  revision = "b7d1e828d86e99040528ce06ce970382c7813f96"
+  revision = "d006e4534bc4fbc512383aa98d04d641ea951ba5"
 
 [[projects]]
   branch = "master"
@@ -540,14 +540,14 @@
     "tap",
     "transport"
   ]
-  revision = "8e4536a86ab602859c20df5ebfd0bd4228d08655"
-  version = "v1.10.0"
+  revision = "afc05b9e1d36f289ea16ba294894486a3e458246"
+  version = "v1.11.0"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
   packages = ["."]
-  revision = "86f5ed62f8a0ee96bd888d2efdfd6d4fb100a4eb"
-  version = "v2.2.0"
+  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+  version = "v2.2.1"
 
 [solve-meta]
   analyzer-name = "dep"
