@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "74ca63959be8b9a9a24cd86eaaea8bf99de8022d"
-  version = "v1.13.25"
+  revision = "5a33d0a4f5d9c27e6cd10b4c156e85b46c4501d7"
+  version = "v1.13.26"
 
 [[projects]]
   branch = "master"
@@ -190,7 +190,7 @@
   branch = "master"
   name = "github.com/hashicorp/go-hclog"
   packages = ["."]
-  revision = "5bcb0f17e36442247290887cc914a6e507afa5c4"
+  revision = "69ff559dc25f3b435631604f573a5fa1efdb6433"
 
 [[projects]]
   branch = "master"
