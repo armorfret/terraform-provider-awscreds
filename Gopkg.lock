@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "f6efafab9ddced9880456bc53096fa79f4596f5e"
-  version = "v1.13.27"
+  revision = "7f68df2a5baf19398d17def23a514a6e617e5937"
+  version = "v1.13.28"
 
 [[projects]]
   branch = "master"
@@ -230,7 +230,7 @@
     "json/scanner",
     "json/token"
   ]
-  revision = "061bf373e402ebb186988085a71ac748949594a9"
+  revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
   branch = "master"
@@ -476,13 +476,13 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "b68f30494add4df6bd8ef5e82803f308e7f7c59c"
+  revision = "b3c676e531a6dc479fa1b35ac961c13f5e2b4d2e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "f67933eaf9e2f750f58a234209a11ebc1107be38"
+  revision = "1d206c9fa8975fb4cf00df1dc8bf3283dc24ba0e"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -540,8 +540,8 @@
     "tap",
     "transport"
   ]
-  revision = "1e2570b1b19ade82d8dbb31bba4e65e9f9ef5b34"
-  version = "v1.11.1"
+  revision = "d89cded64628466c4ab532d1f0ba5c220459ebe8"
+  version = "v1.11.2"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
