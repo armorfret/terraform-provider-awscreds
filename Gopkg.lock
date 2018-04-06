@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "7f68df2a5baf19398d17def23a514a6e617e5937"
-  version = "v1.13.28"
+  revision = "827d8280a5c6590c21e2fc0a6a8b3242ee6e33f0"
+  version = "v1.13.29"
 
 [[projects]]
   branch = "master"
@@ -140,6 +140,12 @@
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/fatih/color"
+  packages = ["."]
+  revision = "507f6050b8568533fb3f5504de8e5205fa62a114"
+  version = "v1.6.0"
 
 [[projects]]
   name = "github.com/go-ini/ini"
@@ -243,7 +249,7 @@
     "hcldec",
     "hclparse"
   ]
-  revision = "5f8ed954abd873b2c09616ba0aa607892bbca7e9"
+  revision = "9db880accff19d9bd953958df738ef0c02b4a311"
 
 [[projects]]
   branch = "master"
@@ -339,6 +345,12 @@
   revision = "d11a37f123888ff060339f516e392032dfcb98ff"
 
 [[projects]]
+  name = "github.com/mattn/go-colorable"
+  packages = ["."]
+  revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
+  version = "v0.0.9"
+
+[[projects]]
   name = "github.com/mattn/go-isatty"
   packages = ["."]
   revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
@@ -348,7 +360,7 @@
   branch = "master"
   name = "github.com/mitchellh/cli"
   packages = ["."]
-  revision = "b068abc08c994321eafd9fd500d0704cb6defcb1"
+  revision = "c54c85e9bd492bdba226ffdda55d4e293b79f8e8"
 
 [[projects]]
   branch = "master"
@@ -482,7 +494,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "1d206c9fa8975fb4cf00df1dc8bf3283dc24ba0e"
+  revision = "3b87a42e500a6dc65dae1a55d0b641295971163e"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -509,7 +521,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "35de2414665fc36f56b72d982c5af480d86de5ab"
+  revision = "aae13d27a44d62f039eeeb93e74e893886673932"
 
 [[projects]]
   name = "google.golang.org/grpc"
