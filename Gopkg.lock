@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "827d8280a5c6590c21e2fc0a6a8b3242ee6e33f0"
-  version = "v1.13.29"
+  revision = "61ac2e639a3e5f940b62693f2f1db515e4f0325e"
+  version = "v1.13.30"
 
 [[projects]]
   branch = "master"
@@ -190,7 +190,7 @@
     ".",
     "helper/url"
   ]
-  revision = "64040d90d4ab861e7e833d689dc76a0f176d8dec"
+  revision = "90bb99a48d86cf1d327cee9968f7428f90ba13c1"
 
 [[projects]]
   branch = "master"
@@ -209,6 +209,12 @@
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
   revision = "e8d22c780116115ae5624720c9af0c97afe4f551"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/go-safetemp"
+  packages = ["."]
+  revision = "b1a1dbde6fdc11e3ae79efd9039009e22d4ae240"
 
 [[projects]]
   branch = "master"
@@ -488,7 +494,7 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "b3c676e531a6dc479fa1b35ac961c13f5e2b4d2e"
+  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
 
 [[projects]]
   branch = "master"
@@ -521,7 +527,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "aae13d27a44d62f039eeeb93e74e893886673932"
+  revision = "ce84044298496ef4b54b4a0a0909ba593cc60e30"
 
 [[projects]]
   name = "google.golang.org/grpc"
