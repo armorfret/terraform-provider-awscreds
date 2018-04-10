@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "a72204b9bf8d48230ee0fe8995613b394c66f2da"
-  version = "v1.13.31"
+  revision = "9b0098a71f6d4d473a26ec8ad3c2feaac6eb1da6"
+  version = "v1.13.32"
 
 [[projects]]
   branch = "master"
@@ -190,7 +190,7 @@
     ".",
     "helper/url"
   ]
-  revision = "90bb99a48d86cf1d327cee9968f7428f90ba13c1"
+  revision = "b345bfcec894fb7ff3fdf9b21baf2f56ea423d98"
 
 [[projects]]
   branch = "master"
@@ -310,8 +310,8 @@
     "helper/jsonutil",
     "helper/pgpkeys"
   ]
-  revision = "7e1fbde40afee241f81ef08700e7987d86fc7242"
-  version = "v0.9.6"
+  revision = "5dd7f25f5c4b541f2da62d70075b6f82771a650d"
+  version = "v0.10.0"
 
 [[projects]]
   branch = "master"
@@ -478,7 +478,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "beb2a9779c3b677077c41673505f150149fce895"
+  revision = "f70185d77e8278766928032ee1355e3da47e7181"
 
 [[projects]]
   branch = "master"
