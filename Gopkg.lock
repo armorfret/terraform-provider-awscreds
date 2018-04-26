@@ -478,7 +478,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "b0697eccbea9adec5b7ba8008f4c33d98d733388"
+  revision = "719079de17cdc7d84bb2cd40301fc88f280eb809"
 
 [[projects]]
   branch = "master"
