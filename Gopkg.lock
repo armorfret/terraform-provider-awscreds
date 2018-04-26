@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "6454c9c7415974700e9d0d7f480edbe669f7b2f8"
-  version = "v1.13.36"
+  revision = "64aa9485bf77b8a811e88e95060a4a049bb373fb"
+  version = "v1.13.37"
 
 [[projects]]
   branch = "master"
@@ -190,7 +190,7 @@
     ".",
     "helper/url"
   ]
-  revision = "b345bfcec894fb7ff3fdf9b21baf2f56ea423d98"
+  revision = "3f60ec5cfbb2a39731571b9ddae54b303bb0a969"
 
 [[projects]]
   branch = "master"
@@ -310,8 +310,8 @@
     "helper/jsonutil",
     "helper/pgpkeys"
   ]
-  revision = "5dd7f25f5c4b541f2da62d70075b6f82771a650d"
-  version = "v0.10.0"
+  revision = "756fdc4587350daf1c65b93647b2cc31a6f119cd"
+  version = "v0.10.1"
 
 [[projects]]
   branch = "master"
@@ -501,7 +501,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "79b0c6888797020a994db17c8510466c72fe75d9"
+  revision = "bb9c189858d91f42db229b04d45a4c3d23a7662a"
 
 [[projects]]
   name = "golang.org/x/text"
