@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "236a3fce423171d03ae327a8aa2512e6fb24df36"
-  version = "v1.13.39"
+  revision = "4f810fa5d8869fcfca0a0a7f6a834ee9cfa22095"
+  version = "v1.13.40"
 
 [[projects]]
   branch = "master"
@@ -478,7 +478,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "613d6eafa307c6881a737a3c35c0e312e8d3a8c5"
+  revision = "8b1d31080a7692e075c4681cb2458454a1fe0706"
 
 [[projects]]
   branch = "master"
@@ -495,7 +495,7 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
+  revision = "640f4622ab692b87c2f3a94265e6f579fe38263d"
 
 [[projects]]
   branch = "master"
