@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "4f810fa5d8869fcfca0a0a7f6a834ee9cfa22095"
-  version = "v1.13.40"
+  revision = "94cafaad88022c44cb85d4998350b127845245ed"
+  version = "v1.13.41"
 
 [[projects]]
   branch = "master"
@@ -478,7 +478,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "76a954637dfa3223c13edb4529f981f0d62cfa26"
+  revision = "1f94bef427e370e425e55b172f3b5e300ef38304"
 
 [[projects]]
   branch = "master"
