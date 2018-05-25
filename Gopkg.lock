@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "fad131ddc707880428615dc8bc1587b55fb46d74"
-  version = "v1.13.54"
+  revision = "f5c8a41f9fdc0f1b615a0f4899b88694ac2c509c"
+  version = "v1.13.55"
 
 [[projects]]
   branch = "master"
@@ -255,7 +255,7 @@
     "hcldec",
     "hclparse"
   ]
-  revision = "81d22773002de532651a19acb91b4e1fe2b44cb2"
+  revision = "36446359d27574bf110611001414da561731b62d"
 
 [[projects]]
   branch = "master"
@@ -494,13 +494,13 @@
     "internal/timeseries",
     "trace"
   ]
-  revision = "9ef9f5bb98a1fdc41f8cf6c250a4404b4085e389"
+  revision = "dfa909b99c79129e1100513e5cd36307665e5723"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "e2c7578ad1a9fc1a9166e96605d4790a88030ece"
+  revision = "d4cedef3467ee719ea35470faeefbc6d0fa18e4b"
 
 [[projects]]
   name = "golang.org/x/text"
