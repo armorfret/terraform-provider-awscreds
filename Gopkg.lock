@@ -114,8 +114,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "b05c59e7c774a2958fe2ea6dd7ccfef338d493e1"
-  version = "v1.13.58"
+  revision = "827e7eac8c2680d5bdea7bc3ef29c596eabe1eae"
+  version = "v1.13.59"
 
 [[projects]]
   branch = "master"
@@ -478,7 +478,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "ab813273cd59e1333f7ae7bff5d027d4aadf528c"
+  revision = "5ba7f63082460102a45837dbd1827e10f9479ac0"
 
 [[projects]]
   branch = "master"
@@ -527,7 +527,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "694d95ba50e67b2e363f3483057db5d4910c18f9"
+  revision = "4065a77fc542a455295382a23a996a08ed18813a"
 
 [[projects]]
   name = "google.golang.org/grpc"
