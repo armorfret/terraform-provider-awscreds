@@ -39,6 +39,7 @@
     "aws/credentials/ec2rolecreds",
     "aws/credentials/endpointcreds",
     "aws/credentials/stscreds",
+    "aws/csm",
     "aws/defaults",
     "aws/ec2metadata",
     "aws/endpoints",
@@ -50,6 +51,8 @@
     "internal/shareddefaults",
     "private/protocol",
     "private/protocol/ec2query",
+    "private/protocol/eventstream",
+    "private/protocol/eventstream/eventstreamapi",
     "private/protocol/json/jsonutil",
     "private/protocol/jsonrpc",
     "private/protocol/query",
@@ -114,8 +117,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "5197757a58a794d49d2d0c50a932997157734100"
-  version = "v1.13.60"
+  revision = "47309c012812d9e9c488a54313e5cdfa7479df93"
+  version = "v1.14.1"
 
 [[projects]]
   branch = "master"
@@ -310,8 +313,8 @@
     "helper/jsonutil",
     "helper/pgpkeys"
   ]
-  revision = "756fdc4587350daf1c65b93647b2cc31a6f119cd"
-  version = "v0.10.1"
+  revision = "3ee0802ed08cb7f4046c2151ec4671a076b76166"
+  version = "v0.10.2"
 
 [[projects]]
   branch = "master"
@@ -478,7 +481,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "df8d4716b3472e4a531c33cedbe537dae921a1a9"
+  revision = "b47b1587369238182299fe4dad77d05b8b461e06"
 
 [[projects]]
   branch = "master"
@@ -500,7 +503,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "c11f84a56e43e20a78cee75a7c034031ecf57d1f"
+  revision = "9527bec2660bd847c050fda93a0f0c6dee0800bb"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -559,8 +562,8 @@
     "tap",
     "transport"
   ]
-  revision = "41344da2231b913fa3d983840a57a6b1b7b631a1"
-  version = "v1.12.0"
+  revision = "22a49e732a507a11ac524e4ea5fd1a3e384b6fb8"
+  version = "v1.12.1"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
