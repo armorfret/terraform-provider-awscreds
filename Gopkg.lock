@@ -503,7 +503,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "9527bec2660bd847c050fda93a0f0c6dee0800bb"
+  revision = "7c1e4f34a39c8bf93b6a3379e4ffb3b118ecc614"
 
 [[projects]]
   name = "golang.org/x/text"
