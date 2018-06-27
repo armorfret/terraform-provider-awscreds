@@ -117,8 +117,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "e79e9fd4ec11ccc242a472f980be78830f9eba80"
-  version = "v1.14.13"
+  revision = "aff39e8473db578a1cec9ac2f829a56813c1d631"
+  version = "v1.14.14"
 
 [[projects]]
   branch = "master"
@@ -503,7 +503,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "a200a19cb90b19de298170992778b1fda7217bd6"
+  revision = "7138fd3d9dc8335c567ca206f4333fb75eb05d56"
 
 [[projects]]
   name = "golang.org/x/text"
