@@ -117,8 +117,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "aff39e8473db578a1cec9ac2f829a56813c1d631"
-  version = "v1.14.14"
+  revision = "07ab5fdce76c9a9a0ba520a1bcaa95fbc6bdeb03"
+  version = "v1.14.15"
 
 [[projects]]
   branch = "master"
@@ -351,7 +351,7 @@
     "openpgp/s2k",
     "rsa"
   ]
-  revision = "5114a9a81e1b256bfe283702d45dad50f8bf5ddf"
+  revision = "670ebd3adf7a737d69ffe83a777a8e34eadc1b32"
 
 [[projects]]
   name = "github.com/mattn/go-colorable"
@@ -497,7 +497,7 @@
     "internal/timeseries",
     "trace"
   ]
-  revision = "afe8f62b1d6bbd81f31868121a50b06d8188e1f9"
+  revision = "d1d521f6884855bc0e59c3d011574bd0678f18bc"
 
 [[projects]]
   branch = "master"
@@ -530,7 +530,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "80063a038e333bbe006c878e4c5ce4c74d055498"
+  revision = "ff3583edef7de132f219f0efc00e097cabcc0ec0"
 
 [[projects]]
   name = "google.golang.org/grpc"
