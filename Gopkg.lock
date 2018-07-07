@@ -258,7 +258,7 @@
     "hcldec",
     "hclparse"
   ]
-  revision = "6558d83419b8415adbcc4df88fd6c8b56fbbaf5f"
+  revision = "1718a963e6321c0d8b663ca3f2224be366d59905"
 
 [[projects]]
   branch = "master"
@@ -465,7 +465,7 @@
     "cty/json",
     "cty/set"
   ]
-  revision = "c96d660229f9ad0a16eb5869819ea51e1ed49896"
+  revision = "3ccef1ae92b0ac73b92d86f274f0ff781e2d9b3b"
 
 [[projects]]
   branch = "master"
@@ -503,7 +503,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "ce36f3865eeb42541ce3f87f32f8462c5687befa"
+  revision = "3c6ecd8f22c6f40fbeec94c000a069d7d87c7624"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -530,7 +530,7 @@
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "ff3583edef7de132f219f0efc00e097cabcc0ec0"
+  revision = "8b2cc369ab52e0003a878865c9372afdd6ca5c5a"
 
 [[projects]]
   name = "google.golang.org/grpc"
