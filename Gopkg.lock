@@ -209,7 +209,7 @@
   branch = "master"
   name = "github.com/hashicorp/errwrap"
   packages = ["."]
-  revision = "7554cd9344cec97297fa6649b055a8c98c2a1e55"
+  revision = "d6c0cd88035724dd42e0f335ae30161c20575ecc"
 
 [[projects]]
   branch = "master"
@@ -236,7 +236,7 @@
   branch = "master"
   name = "github.com/hashicorp/go-multierror"
   packages = ["."]
-  revision = "b7773ae218740a7be65057fc60b366a49b538a44"
+  revision = "12f8a7e29b823bba3e5ca3d9526b96ddfca48906"
 
 [[projects]]
   branch = "master"
@@ -260,7 +260,7 @@
   branch = "master"
   name = "github.com/hashicorp/go-version"
   packages = ["."]
-  revision = "23480c0665776210b5fbbac6eaaee40e3e6a96b7"
+  revision = "78879f5e1be14bb4812abd0bb547a923b5aeac23"
 
 [[projects]]
   branch = "master"
@@ -289,7 +289,7 @@
     "hcldec",
     "hclparse"
   ]
-  revision = "1718a963e6321c0d8b663ca3f2224be366d59905"
+  revision = "966851f3097fdb3cbaab0f8869ab3dbbdb779331"
 
 [[projects]]
   branch = "master"
@@ -444,7 +444,7 @@
   branch = "master"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
-  revision = "bb74f1db0675b241733089d5a1faa5dd8b0ef57b"
+  revision = "f15292f7a699fcc1a38a80977f80a046874ba8ac"
 
 [[projects]]
   branch = "master"
@@ -536,7 +536,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "1b2967e3c290b7c545b3db0deeda16e9be4f98a2"
+  revision = "ac767d655b305d4e9612f5f6e33120b9176c4ad4"
 
 [[projects]]
   name = "golang.org/x/text"
