@@ -26,12 +26,8 @@
 
 
 [[constraint]]
-  name = "github.com/hashicorp/terraform"
-  version = "0.11.7"
-
-[[constraint]]
   name = "github.com/terraform-providers/terraform-provider-aws"
-  version = "1.27.0"
+  version = "1.29.0"
 
 [prune]
   go-tests = true
