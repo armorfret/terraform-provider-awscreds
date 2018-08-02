@@ -144,8 +144,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "e3f7540480e3b9a733845f9fa5d35d7484bac3cd"
-  version = "v1.15.2"
+  revision = "cc03a15b82ef2c52a4fd94c92655aecb70160a48"
+  version = "v1.15.3"
 
 [[projects]]
   name = "github.com/beevik/etree"
@@ -291,7 +291,7 @@
     "hcldec",
     "hclparse"
   ]
-  revision = "b21bf6169880c0e50778ba1a8076e179610b6fec"
+  revision = "77c0b55a597ce9ff855c699dba2a99c1632690e1"
 
 [[projects]]
   branch = "master"
@@ -422,7 +422,7 @@
   branch = "master"
   name = "github.com/mitchellh/go-homedir"
   packages = ["."]
-  revision = "3864e76763d94a6df2f9960b16a20a33da9f9a66"
+  revision = "58046073cbffe2f25d425fe1331102f55cf719de"
 
 [[projects]]
   branch = "master"
@@ -532,13 +532,13 @@
     "internal/timeseries",
     "trace"
   ]
-  revision = "49c15d80dfbc983ea25246ee959d970efe09ec09"
+  revision = "f4c29de78a2a91c00474a2e689954305c350adf9"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e"
+  revision = "3dc4335d56c789b04b0ba99b7a37249d9b614314"
 
 [[projects]]
   name = "golang.org/x/text"
