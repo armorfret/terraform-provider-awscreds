@@ -474,8 +474,8 @@
 [[projects]]
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
-  revision = "73b3cdaead124418307a9229873d96e91865461b"
-  version = "v1.29.0"
+  revision = "d5e793c2b6c1fabe63df748e03e7d2c33e8fa283"
+  version = "v1.30.0"
 
 [[projects]]
   name = "github.com/ulikunitz/xz"
