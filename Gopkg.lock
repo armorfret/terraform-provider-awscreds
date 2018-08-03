@@ -144,8 +144,8 @@
     "service/waf",
     "service/wafregional"
   ]
-  revision = "cc03a15b82ef2c52a4fd94c92655aecb70160a48"
-  version = "v1.15.3"
+  revision = "f70339bb6af843c8ab1974381b3f4fcaee2b1a41"
+  version = "v1.15.5"
 
 [[projects]]
   name = "github.com/beevik/etree"
@@ -516,7 +516,7 @@
     "openpgp/packet",
     "openpgp/s2k"
   ]
-  revision = "c126467f60eb25f8f27e5a981f32a87e3965053f"
+  revision = "56440b844dfe139a8ac053f4ecac0b20b79058f4"
 
 [[projects]]
   branch = "master"
@@ -538,7 +538,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "3dc4335d56c789b04b0ba99b7a37249d9b614314"
+  revision = "0ffbfd41fbef8ffcf9b62b0b0aa3a5873ed7a4fe"
 
 [[projects]]
   name = "golang.org/x/text"
