@@ -27,7 +27,7 @@
 
 [[constraint]]
   name = "github.com/terraform-providers/terraform-provider-aws"
-  version = "1.29.0"
+  version = "1.30.0"
 
 [prune]
   go-tests = true
