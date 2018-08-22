@@ -34,7 +34,7 @@
   revision = "7fddfc383310abc091d79a27f116d30cf0424032"
 
 [[projects]]
-  digest = "1:0b5cc0b04a92021163ed73b82aa9d45bbb24a3c1e0748b67bbe6d76850933cc2"
+  digest = "1:822b4e80333a24dda7cd99700512ab8b93a4bcd987cf921ed528cf15cd376c08"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "66974140c322f22c1daaf95a18930ea6a9e4d21e"
-  version = "v1.15.16"
+  revision = "505514fea21d88b799f6fbef79fb0c0b108e3437"
+  version = "v1.15.17"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -635,11 +635,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e3e7f51633f98fce9404940f74dfd65cf306ee173ddf5a8b247c9c830e42b38a"
+  digest = "1:a3f00ac457c955fe86a41e1495e8f4c54cb5399d609374c5cc26aa7d72e542c8"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "1a700e749ce29638d0bbcb531cce1094ea096bd3"
+  revision = "3b58ed4ad3395d483fc92d5d14123ce2c3581fec"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
