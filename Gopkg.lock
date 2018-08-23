@@ -34,7 +34,7 @@
   revision = "7fddfc383310abc091d79a27f116d30cf0424032"
 
 [[projects]]
-  digest = "1:822b4e80333a24dda7cd99700512ab8b93a4bcd987cf921ed528cf15cd376c08"
+  digest = "1:c0421626b5d35966c993cb37b45541d0ff3ef2f9263e0cce86e107322ce77659"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "505514fea21d88b799f6fbef79fb0c0b108e3437"
-  version = "v1.15.17"
+  revision = "e21dfa909e14ce93f88f1f3505764bc4952a11be"
+  version = "v1.15.18"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -206,12 +206,12 @@
   version = "v1.7.0"
 
 [[projects]]
-  digest = "1:fe8a03a8222d5b913f256972933d26d24ad7c8286692a42943bc01633cc8fce3"
+  digest = "1:5abd6a22805b1919f6a6bca0ae58b13cef1f3412812f38569978f43ef02743d4"
   name = "github.com/go-ini/ini"
   packages = ["."]
   pruneopts = "UT"
-  revision = "358ee7663966325963d4e8b2e1fbd570c5195153"
-  version = "v1.38.1"
+  revision = "5cf292cae48347c2490ac1a58fe36735fb78df7e"
+  version = "v1.38.2"
 
 [[projects]]
   digest = "1:4c0989ca0bcd10799064318923b9bc2db6b4d6338dd75f3f2d86c3511aaaf5cf"
@@ -330,7 +330,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:4567518c58b67f842ce9307a8c064b5e1f15dbd32108a1e4ffa535e70a982d45"
+  digest = "1:7705079db1316801d6ec7c5e81396d6a65deed87d7265ac9527c6bc08c90318d"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -341,7 +341,7 @@
     "hclparse",
   ]
   pruneopts = "UT"
-  revision = "d6049c2a047e81ac7e8b7934ae479898387f1bbc"
+  revision = "ed8144cda141c1f06f8ab122baff783b645cfe52"
 
 [[projects]]
   branch = "master"
@@ -561,12 +561,12 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:59b24cd3184fb90846f2844c508763c798447bf3f14d6978711e16dd87cc653f"
+  digest = "1:621c0bb4c749bc9f760a6c3a81ef907cde78edbbc49b251fb123e77e65cfdf71"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "4a75d90a6d283f68254621990d70e23d1b182e1b"
-  version = "v1.32.0"
+  revision = "27636e450bc1e583870e99805e044a9ab631a4cf"
+  version = "v1.33.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
