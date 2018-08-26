@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:3ddbb7e37f544d440825b90cc88badc0a30ddcf307a277cbd7f32cd150ce6938"
+  digest = "1:91ced0349520eeecd838f912136a7419a653385f422bc32765883da59c3f1462"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "9b02f79e8b963274a4ca7a1468fa57d6e3f87363"
-  version = "v1.15.20"
+  revision = "4324bc9d8865bdb3e6aa86ec7772ca1272d2750e"
+  version = "v1.15.21"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -311,8 +311,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:12247a2e99a060cc692f6680e5272c8adf0b8f572e6bce0d7095e624c958a240"
+  digest = "1:ea40c24cdbacd054a6ae9de03e62c5f252479b96c716375aace5c120d68647c8"
   name = "github.com/hashicorp/hcl"
   packages = [
     ".",
@@ -326,7 +325,8 @@
     "json/token",
   ]
   pruneopts = "UT"
-  revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
+  revision = "8cb6e5b959231cc1119e43259c4a608f9c51a241"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
@@ -548,7 +548,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:4d76324ccff5546792b4274c5fe1639bc5983c533c85d1b4be2168d57daabdf0"
+  digest = "1:963772912b1d71f582a78a3f55a0e83bbd88777335a07a57cfbe0f01df2df06b"
   name = "github.com/posener/complete"
   packages = [
     ".",
@@ -557,8 +557,8 @@
     "match",
   ]
   pruneopts = "UT"
-  revision = "98eb9847f27ba2008d380a32c98be474dea55bdf"
-  version = "v1.1.1"
+  revision = "dcda3199365ca2a5f24aea4c42aa56f6a197d117"
+  version = "v1.1.2"
 
 [[projects]]
   digest = "1:621c0bb4c749bc9f760a6c3a81ef907cde78edbbc49b251fb123e77e65cfdf71"
@@ -617,7 +617,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:d183e34f6e35f7a9434c7cc925688b1f8f439a02b484aeefe959b69785517bde"
+  digest = "1:07037360fbd8c966f74836e3306f18505ea31cd0e4b8a861294cba2b53c2aa1c"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -631,7 +631,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "4bcd98cce591d8c7061bf313d7a3cbad05b58549"
+  revision = "8a410e7b638dca158bf9e766925842f6651ff828"
 
 [[projects]]
   branch = "master"
