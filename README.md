@@ -1,7 +1,7 @@
 terraform-provider-awscreds
 =========
 
-[![Build Status](https://img.shields.io/circleci/project/akerl/terraform-provider-awscreds/master.svg)](https://circleci.com/gh/akerl/terraform-provider-awscreds)
+[![Build Status](https://img.shields.io/travis/com/akerl/terraform-provider-awscreds.svg)](https://travis-ci.com/akerl/terraform-provider-awscreds)
 [![GitHub release](https://img.shields.io/github/release/akerl/terraform-provider-awscreds.svg)](https://github.com/akerl/terraform-provider-awscreds/releases)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
