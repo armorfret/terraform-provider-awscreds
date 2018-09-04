@@ -639,7 +639,7 @@
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "fa5fdf94c78965f1aa8423f0cc50b8b8d728b05a"
+  revision = "2b024373dcd9800f0cae693839fac6ede8d64a8c"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
