@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:68de5606d1b75741f714a3a73f9556f22dee4618c33df42dfc140e37343877ff"
+  digest = "1:acfe80a4f7be66c2b848b7a062c1df5dc0bc79943570b9c54ac39f44bb98c50f"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "04abd557eeaab3cfdded45467eea00fc03db9cb9"
-  version = "v1.15.26"
+  revision = "3e9c4ca8d7fc8d22f0d21d50120186f73d2fdf1a"
+  version = "v1.15.27"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -613,7 +613,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "182538f80094b6a8efaade63a8fd8e0d9d5843dd"
+  revision = "0709b304e793a5edb4a2c0145f281ecdc20838a4"
 
 [[projects]]
   branch = "master"
