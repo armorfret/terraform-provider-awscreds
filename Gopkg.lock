@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:acfe80a4f7be66c2b848b7a062c1df5dc0bc79943570b9c54ac39f44bb98c50f"
+  digest = "1:4a2965099113d990a858761e11adc8953f830ca70710070f931b561f61f84bea"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "3e9c4ca8d7fc8d22f0d21d50120186f73d2fdf1a"
-  version = "v1.15.27"
+  revision = "80ad2657c5ff975b642b1febb11c3fcfd747c057"
+  version = "v1.15.28"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -341,7 +341,7 @@
     "hclparse",
   ]
   pruneopts = "UT"
-  revision = "ed8144cda141c1f06f8ab122baff783b645cfe52"
+  revision = "864f97c8ab203ef9f72a47f231e7d10e52a33ce7"
 
 [[projects]]
   branch = "master"
@@ -635,11 +635,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:4b487c782bc804d994e91adbd3d2a8a77a482671efd87b2fde0805adb01a39c0"
+  digest = "1:a9e9a5da9c877870b0feb5975c1e30dddb236562f912e9e9b0515ac9465f951b"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "2b024373dcd9800f0cae693839fac6ede8d64a8c"
+  revision = "ebe1bf3edb3325c393447059974de898d5133eb8"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
