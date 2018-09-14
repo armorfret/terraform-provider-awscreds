@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:d151069eabba386f500f6809d82e3dace944544892c8bc5232b666603254c97c"
+  digest = "1:e2ce110be37e949e4260858cbea7f563eaaa81b0e7e8e95a23886e115b64688f"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "1186f7e6f000ce13edff71ed5ecc8b0e27ba38d7"
-  version = "v1.15.33"
+  revision = "87474c2d2bbdf6bd31275e435648aeb6c3d6815d"
+  version = "v1.15.35"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -440,7 +440,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:6b36057694212f8b0db710879db4e20f152261e5ef9456923d94e2982b3ce733"
+  digest = "1:63d4fbdb4145a113f603e4faf159e11bee4ec9bf7f6d09011eba0a8d24c0c286"
   name = "github.com/keybase/go-crypto"
   packages = [
     "brainpool",
@@ -457,7 +457,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "c84d7cbef16bcd1cd873e1d5793b18865f443ba0"
+  revision = "91acd11cb745e8e703d0306727b65cf550c0fde5"
 
 [[projects]]
   digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
@@ -561,12 +561,12 @@
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:cfb72b79a2e36c9d3be0b65feb81a73f8af00f494c53d2d0e64a0e2e666f9950"
+  digest = "1:5dba4a5e27670038aaea8a066dc2b9d3db89d9ec9ea1ecdfa7e8fbd28f978e1c"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "7a246a13e15a1ab9a63b311129279972ef7dc273"
-  version = "v1.35.0"
+  revision = "9bbff73e062b92859fa9d26a793d69640b425ad2"
+  version = "v1.36.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
@@ -666,11 +666,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:077c1c599507b3b3e9156d17d36e1e61928ee9b53a5b420f10f28ebd4a0b275c"
+  digest = "1:9cc1d3de11a1b6994eb01fe3cf81db064470d0fd39a37475f53a396aa5e8622c"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "36d5787dc5356b711fe8f3040271aaf51c35955b"
+  revision = "5a2fd4cab2d6d4a18e70c34937662526cd0c4bd1"
 
 [[projects]]
   digest = "1:1b6d2676ea895d33cbd1999c75dfc8e25b103c754ccfc66dc06ae845ce3a47bc"
