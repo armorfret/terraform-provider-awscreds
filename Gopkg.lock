@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:4a4f5b8356431f163de848359c12aa80f6ae853dd90ee708202e1a3ddf515eca"
+  digest = "1:bdaa19e68270ebdbabfa0272d64e566da25df048f0f40521a2bf1a0030baa32e"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "3dd4f56d3cb9d194293525540562216f81bd3f27"
-  version = "v1.15.37"
+  revision = "949f7800d745d1df9af349380e5deec8de206144"
+  version = "v1.15.38"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -561,12 +561,12 @@
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:5dba4a5e27670038aaea8a066dc2b9d3db89d9ec9ea1ecdfa7e8fbd28f978e1c"
+  digest = "1:d8c722ee62711a131231fc90e24d925209958b3fdce1c1fd973741ab5edcced5"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "9bbff73e062b92859fa9d26a793d69640b425ad2"
-  version = "v1.36.0"
+  revision = "9d38cd4c1bad9e7fd40b35df5406a6cc554b80e8"
+  version = "v1.37.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
@@ -635,11 +635,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:824ea4aea5f0f50d4e4e139e4a3d7528f70b388dd9162c8ce310eb04581a7d84"
+  digest = "1:199248809ceaae02531db528e4e72d0d46eac33028bdf416ec5839bd8b35a1f7"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "ee1b12c67af419cf5a9be3bdbeea7fc1c5f32f11"
+  revision = "1561086e645b2809fb9f8a1e2a38160bf8d53bf4"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
