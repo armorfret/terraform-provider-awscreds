@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:bdaa19e68270ebdbabfa0272d64e566da25df048f0f40521a2bf1a0030baa32e"
+  digest = "1:7ef8637a9b6e3047d346e281785f665c1c2992633345906785f5a51d0f51ab55"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "949f7800d745d1df9af349380e5deec8de206144"
-  version = "v1.15.38"
+  revision = "a93d31c26045c00c52f58dda4dcad02a3e622534"
+  version = "v1.15.39"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -440,7 +440,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:63d4fbdb4145a113f603e4faf159e11bee4ec9bf7f6d09011eba0a8d24c0c286"
+  digest = "1:e08727cc2ce181e83b5b533591a556374db4be15fbf373ab1c3564474151cdad"
   name = "github.com/keybase/go-crypto"
   packages = [
     "brainpool",
@@ -457,7 +457,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "91acd11cb745e8e703d0306727b65cf550c0fde5"
+  revision = "0b2a91ace4489933c854bb17d3f22dabdd91b455"
 
 [[projects]]
   digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
@@ -635,11 +635,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:199248809ceaae02531db528e4e72d0d46eac33028bdf416ec5839bd8b35a1f7"
+  digest = "1:5744d700238812de2aa1eb87c16ed4018df60b15d141179557b68c5703eb8283"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "1561086e645b2809fb9f8a1e2a38160bf8d53bf4"
+  revision = "d641721ec2dead6fe5ca284096fe4b1fcd49e427"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
