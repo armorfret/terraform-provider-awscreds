@@ -341,7 +341,7 @@
     "hclparse",
   ]
   pruneopts = "UT"
-  revision = "864f97c8ab203ef9f72a47f231e7d10e52a33ce7"
+  revision = "ffb8e97eb71bbcee2ea32048b0a7e451d37bdb27"
 
 [[projects]]
   branch = "master"
@@ -617,7 +617,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:d6c783aadd017eac31b9872bf54213be93c2306e8664ac2c684a88620429d0bc"
+  digest = "1:3a6e0f8a7ddbf7b06ca12c93482b4d782fa3a85054de703b24fba2c8a8a84d1c"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -631,15 +631,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "26e67e76b6c3f6ce91f7c52def5af501b4e0f3a2"
+  revision = "2f5d2388922f370f4355f327fcf4cfe9f5583908"
 
 [[projects]]
   branch = "master"
-  digest = "1:5744d700238812de2aa1eb87c16ed4018df60b15d141179557b68c5703eb8283"
+  digest = "1:6c54cefa33de85c47075aae30f1d1a333967c405272010bb76aa943467e4cbae"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "d641721ec2dead6fe5ca284096fe4b1fcd49e427"
+  revision = "d47a0f3392421c5624713c9a19fe781f651f8a50"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
