@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:ee9a37da55b7e29671718d46ffa6c1b35969ca6371751f6f0d831e4e2b3d49cd"
+  digest = "1:215477985d200baae6a634a37e0578e9a9ee5995aeda70defcd39b6b8d4fc648"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "85d9dfd77e6d694e83c3ac054141cb5e81eecc7f"
-  version = "v1.15.43"
+  revision = "a8ff9e4804fc89c994b731b1c057640ab2aecff3"
+  version = "v1.15.45"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -206,12 +206,12 @@
   version = "v1.7.0"
 
 [[projects]]
-  digest = "1:5abd6a22805b1919f6a6bca0ae58b13cef1f3412812f38569978f43ef02743d4"
+  digest = "1:b98e7574fc27ec166fb31195ec72c3bd0bffd73926d3612eb4c929bc5236f75b"
   name = "github.com/go-ini/ini"
   packages = ["."]
   pruneopts = "UT"
-  revision = "5cf292cae48347c2490ac1a58fe36735fb78df7e"
-  version = "v1.38.2"
+  revision = "7b294651033cd7d9e7f0d9ffa1b75ed1e198e737"
+  version = "v1.38.3"
 
 [[projects]]
   digest = "1:4c0989ca0bcd10799064318923b9bc2db6b4d6338dd75f3f2d86c3511aaaf5cf"
@@ -635,11 +635,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ff116c3de0188ee4c62107711d44cc5ec52b16d8a55274d480f5be34270acb4d"
+  digest = "1:e2ced6fdf654069e8713c96012275fbd245381673d53e8c8ace640b28441a28b"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "dad3d9fb7b6e83d0f9ac8f54670f6334c3a287b4"
+  revision = "e4b3c5e9061176387e7cea65e4dc5853801f3fb7"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -666,11 +666,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:56b0bca90b7e5d1facf5fbdacba23e4e0ce069d25381b8e2f70ef1e7ebfb9c1a"
+  digest = "1:1e6b0176e8c5dd8ff551af65c76f8b73a99bcf4d812cedff1b91711b7df4804c"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "0e822944c569bf5c9afd034adaa56208bd2906ac"
+  revision = "c7e5094acea1ca1b899e2259d80a6b0f882f81f8"
 
 [[projects]]
   digest = "1:1b6d2676ea895d33cbd1999c75dfc8e25b103c754ccfc66dc06ae845ce3a47bc"
