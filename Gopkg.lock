@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:a3d6849f6089f787a41a1ca35a5e1e24778cee5611d4c1dcae1a0a46f95acc89"
+  digest = "1:37d2529f582f409e83357b5de59aa430e1a98a0c82f55ac283041bc6bbc14222"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "53e36ebb6b2c26d228ba9563d06caf306227f110"
-  version = "v1.15.46"
+  revision = "cfcda8304585604aabf1f7f8f7ce67b55029d0ca"
+  version = "v1.15.47"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -280,11 +280,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:bc79d6b766d26145aaa4eed55e50ccd84b2842a9f87d5638527774b32dc00f68"
+  digest = "1:ed6b6f1d3d949ad31aba00953f0fc58aaaa1df1a37102ff5646df82233329853"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
   pruneopts = "UT"
-  revision = "051b989fbf44280905aa30a5dde1cceab0261b9d"
+  revision = "1faddcf740b61468a23dacc67369c28ec96d7fc7"
 
 [[projects]]
   digest = "1:605c47454db9040e30b20dc1b29e3e9d42d6ee742545729cdef74afb1b898ad0"
@@ -404,7 +404,7 @@
   version = "v0.11.8"
 
 [[projects]]
-  digest = "1:f5688e8968a5805a6fccdb7cd0e3a0e15b1f0a91cbcddf8d7442660fbdaf9337"
+  digest = "1:e5987f8c8e412bf7f82c0fa05c81442aed4f880d0007b47d722be16fb31a737b"
   name = "github.com/hashicorp/vault"
   packages = [
     "helper/compressutil",
@@ -412,8 +412,8 @@
     "helper/pgpkeys",
   ]
   pruneopts = "UT"
-  revision = "8575f8fedcf8f5a6eb2b4701cb527b99574b5286"
-  version = "v0.11.1"
+  revision = "2b1a4304374712953ff606c6a925bbe90a4e85dd"
+  version = "v0.11.2"
 
 [[projects]]
   branch = "master"
@@ -546,6 +546,17 @@
   pruneopts = "UT"
   revision = "4dadeb3030eda0273a12382bb2348ffc7c9d1a39"
   version = "v1.0.0"
+
+[[projects]]
+  digest = "1:4f0885b3f0dba96128a09a6f4b4231c42688fbd05f323224c6aa5adc9f4e87bf"
+  name = "github.com/pierrec/lz4"
+  packages = [
+    ".",
+    "internal/xxh32",
+  ]
+  pruneopts = "UT"
+  revision = "bb6bfd13c6a262f1943c0446eb25b7f54c1fb9a2"
+  version = "v2.0.6"
 
 [[projects]]
   digest = "1:963772912b1d71f582a78a3f55a0e83bbd88777335a07a57cfbe0f01df2df06b"
