@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:215477985d200baae6a634a37e0578e9a9ee5995aeda70defcd39b6b8d4fc648"
+  digest = "1:a3d6849f6089f787a41a1ca35a5e1e24778cee5611d4c1dcae1a0a46f95acc89"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,8 +154,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "a8ff9e4804fc89c994b731b1c057640ab2aecff3"
-  version = "v1.15.45"
+  revision = "53e36ebb6b2c26d228ba9563d06caf306227f110"
+  version = "v1.15.46"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -264,11 +264,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:d900a5ae66a3181783dbf38e4a23505cdabd3e8e881c3d49ae8aa498b571b886"
+  digest = "1:0876aeb6edb07e20b6b0ce1d346655cb63dbe0a26ccfb47b68a9b7697709777b"
   name = "github.com/hashicorp/go-hclog"
   packages = ["."]
   pruneopts = "UT"
-  revision = "e45cbeb79f0411b1cfedd3f226ff69d5d433c762"
+  revision = "61d530d6c27f994fb6c83b80f99a69c54125ec8a"
 
 [[projects]]
   digest = "1:f668349b83f7d779567c880550534addeca7ebadfdcf44b0b9c39be61864b4b7"
@@ -280,11 +280,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:20f78c1cf1b6fe6c55ba1407350d6fc7dc77d1591f8106ba693c28014a1a1b37"
+  digest = "1:bc79d6b766d26145aaa4eed55e50ccd84b2842a9f87d5638527774b32dc00f68"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
   pruneopts = "UT"
-  revision = "a4620f9913d19f03a6bf19b2f304daaaf83ea130"
+  revision = "051b989fbf44280905aa30a5dde1cceab0261b9d"
 
 [[projects]]
   digest = "1:605c47454db9040e30b20dc1b29e3e9d42d6ee742545729cdef74afb1b898ad0"
@@ -330,7 +330,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2a2b954756f8b4bf6bf7da4438ad9ac30e05c90bb35fa2775a734a8626db3657"
+  digest = "1:3eec631be552c4b129491f8d4fd7997d6e907d0c3b29937e815b9203223420d1"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -341,7 +341,7 @@
     "hclparse",
   ]
   pruneopts = "UT"
-  revision = "cce5ae6cc5c890122f922573d6bf973eef0509f7"
+  revision = "3e4b7e0eb20ecc20e70dbd458f7a54daf0032830"
 
 [[projects]]
   branch = "master"
@@ -524,12 +524,12 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:645110e089152bd0f4a011a2648fbb0e4df5977be73ca605781157ac297f50c4"
+  digest = "1:e32dfc6abff6a3633ef4d9a1022fd707c8ef26f1e1e8f855dc58dc415ce7c8f3"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
   pruneopts = "UT"
-  revision = "fa473d140ef3c6adf42d6b391fe76707f1f243c8"
-  version = "v1.0.0"
+  revision = "fe40af7a9c397fa3ddba203c38a5042c5d0475ad"
+  version = "v1.1.1"
 
 [[projects]]
   digest = "1:bcc07ad6f62e6d8958692ff89c8ac1c64eb92de66330f98b7e9bdb72cc017a84"
@@ -599,7 +599,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:18257a14c3fcd0e713b5e1501759c658b127fc94fafc080a7138be7dc01d9b1e"
+  digest = "1:fc3e1f838b92bf8686f808fb62f35e35f18f1fcfc99841c30cc189593bb6695d"
   name = "golang.org/x/crypto"
   packages = [
     "bcrypt",
@@ -613,7 +613,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "5295e8364332db77d75fce11f1d19c053919a9c9"
+  revision = "e3636079e1a4c1f337f212cc5cd2aca108f6c900"
 
 [[projects]]
   branch = "master"
