@@ -526,12 +526,12 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:e32dfc6abff6a3633ef4d9a1022fd707c8ef26f1e1e8f855dc58dc415ce7c8f3"
+  digest = "1:53bc4cd4914cd7cd52139990d5170d6dc99067ae31c56530621b18b35fc30318"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
   pruneopts = "UT"
-  revision = "fe40af7a9c397fa3ddba203c38a5042c5d0475ad"
-  version = "v1.1.1"
+  revision = "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
+  version = "v1.1.2"
 
 [[projects]]
   digest = "1:bcc07ad6f62e6d8958692ff89c8ac1c64eb92de66330f98b7e9bdb72cc017a84"
@@ -644,15 +644,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "68fc911561ed0cb104e22deafa05515909b706ab"
+  revision = "146acd28ed5894421fb5aac80ca93bc1b1f46f87"
 
 [[projects]]
   branch = "master"
-  digest = "1:f7e5d74f094d44e931785fc1ebc887704953b6689c7d47fce9ff1a8647b83eb6"
+  digest = "1:c2789211d4035eb0843b85958ecf7cb4a5ea91c2d4decee652c94ce898e433cb"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "8469e314837c2e2471561de5c47bbf8bfd0d9099"
+  revision = "4497e2df6f9e69048a54498c7affbbec3294ad47"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
