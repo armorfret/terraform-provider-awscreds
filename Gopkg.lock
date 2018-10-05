@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:37d2529f582f409e83357b5de59aa430e1a98a0c82f55ac283041bc6bbc14222"
+  digest = "1:da2719fa39f2e0f813da2b8885ef5c7b046d2efdc877e4851268a9be64b78342"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -55,6 +55,7 @@
     "aws/request",
     "aws/session",
     "aws/signer/v4",
+    "internal/s3err",
     "internal/sdkio",
     "internal/sdkrand",
     "internal/sdkuri",
@@ -133,6 +134,7 @@
     "service/neptune",
     "service/opsworks",
     "service/organizations",
+    "service/pinpoint",
     "service/pricing",
     "service/rds",
     "service/redshift",
@@ -154,8 +156,8 @@
     "service/wafregional",
   ]
   pruneopts = "UT"
-  revision = "cfcda8304585604aabf1f7f8f7ce67b55029d0ca"
-  version = "v1.15.47"
+  revision = "3c7ce80a3b6d9b952022a6c5e5dd758486ff4de1"
+  version = "v1.15.48"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -280,11 +282,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ed6b6f1d3d949ad31aba00953f0fc58aaaa1df1a37102ff5646df82233329853"
+  digest = "1:880e48599e7f65dd85eed8092d63ebcbc73715491aec1a857adbce6d9d51d1ac"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
   pruneopts = "UT"
-  revision = "1faddcf740b61468a23dacc67369c28ec96d7fc7"
+  revision = "314501b665e0b2cc71bbd829783179fc38840a85"
 
 [[projects]]
   digest = "1:605c47454db9040e30b20dc1b29e3e9d42d6ee742545729cdef74afb1b898ad0"
@@ -572,12 +574,12 @@
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:71a37141edb12404b2be3da07f10def3084e506ef1a5836b97b13c09e7b0a7b1"
+  digest = "1:7084ef81989556570b61894f17643f9859507d501dff6fb562034435c63c7eea"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "0d86f37d84f82b5c74bb441c2cdc2f7631037df8"
-  version = "v1.38.0"
+  revision = "7a54a1a09e4d4384a62cda57bc9d5f720e607747"
+  version = "v1.39.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
@@ -642,15 +644,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "f5e5bdd778241bfefa8627f7124c39cd6ad8d74f"
+  revision = "68fc911561ed0cb104e22deafa05515909b706ab"
 
 [[projects]]
   branch = "master"
-  digest = "1:5fbaabb7d082fc6fae18a0e65836037e120cf191103c0407b7916f0ed178daa3"
+  digest = "1:f7e5d74f094d44e931785fc1ebc887704953b6689c7d47fce9ff1a8647b83eb6"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "219bb53033fb8511ee74a8375a3bc672a727bdce"
+  revision = "8469e314837c2e2471561de5c47bbf8bfd0d9099"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -677,11 +679,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1e6b0176e8c5dd8ff551af65c76f8b73a99bcf4d812cedff1b91711b7df4804c"
+  digest = "1:56b0bca90b7e5d1facf5fbdacba23e4e0ce069d25381b8e2f70ef1e7ebfb9c1a"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "c7e5094acea1ca1b899e2259d80a6b0f882f81f8"
+  revision = "af9cb2a35e7f169ec875002c1829c9b315cddc04"
 
 [[projects]]
   digest = "1:1b6d2676ea895d33cbd1999c75dfc8e25b103c754ccfc66dc06ae845ce3a47bc"
