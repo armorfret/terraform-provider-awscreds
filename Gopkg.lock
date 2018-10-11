@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:da2719fa39f2e0f813da2b8885ef5c7b046d2efdc877e4851268a9be64b78342"
+  digest = "1:ddb63e9a25bb2e636ed8394806b89aec842c79d86bfe43da46fd30815985222e"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -154,10 +154,11 @@
     "service/swf",
     "service/waf",
     "service/wafregional",
+    "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "3c7ce80a3b6d9b952022a6c5e5dd758486ff4de1"
-  version = "v1.15.48"
+  revision = "46fe04784968cd7b54e859fcce45753456f736ac"
+  version = "v1.15.52"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -414,8 +415,8 @@
     "helper/pgpkeys",
   ]
   pruneopts = "UT"
-  revision = "2b1a4304374712953ff606c6a925bbe90a4e85dd"
-  version = "v0.11.2"
+  revision = "fb601237bfbe4bc16ff679f642248ee8a86e627b"
+  version = "v0.11.3"
 
 [[projects]]
   branch = "master"
@@ -550,15 +551,15 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:4f0885b3f0dba96128a09a6f4b4231c42688fbd05f323224c6aa5adc9f4e87bf"
+  digest = "1:e39a5ee8fcbec487f8fc68863ef95f2b025e0739b0e4aa55558a2b4cf8f0ecf0"
   name = "github.com/pierrec/lz4"
   packages = [
     ".",
     "internal/xxh32",
   ]
   pruneopts = "UT"
-  revision = "bb6bfd13c6a262f1943c0446eb25b7f54c1fb9a2"
-  version = "v2.0.6"
+  revision = "635575b42742856941dbc767b44905bb9ba083f6"
+  version = "v2.0.7"
 
 [[projects]]
   digest = "1:963772912b1d71f582a78a3f55a0e83bbd88777335a07a57cfbe0f01df2df06b"
@@ -574,12 +575,12 @@
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:7084ef81989556570b61894f17643f9859507d501dff6fb562034435c63c7eea"
+  digest = "1:b55ad8642264ad7a336ae9e0300cdc7d351fe55b1f03da20931c2ebf1617de30"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "7a54a1a09e4d4384a62cda57bc9d5f720e607747"
-  version = "v1.39.0"
+  revision = "0cb57f8869ac30d25e324b9d2cec1b5dc604ed3b"
+  version = "v1.40.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
@@ -626,7 +627,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "e3636079e1a4c1f337f212cc5cd2aca108f6c900"
+  revision = "7c1a557ab941a71c619514f229f0b27ccb0c27cf"
 
 [[projects]]
   branch = "master"
