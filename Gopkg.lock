@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:ddb63e9a25bb2e636ed8394806b89aec842c79d86bfe43da46fd30815985222e"
+  digest = "1:c0d7fcc24b33264e459b26939b12e8faf7404bf48bad7cb64d011eeb364a5503"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -157,8 +157,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "46fe04784968cd7b54e859fcce45753456f736ac"
-  version = "v1.15.52"
+  revision = "bf8067ceb6e7f51e150c218972dccfeeed892b85"
+  version = "v1.15.54"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -424,7 +424,7 @@
   name = "github.com/hashicorp/yamux"
   packages = ["."]
   pruneopts = "UT"
-  revision = "7221087c3d281fda5f794e28c2ea4c6e4d5c4558"
+  revision = "2f1d1f20f75d5404f53b9edf6b53ed5505508675"
 
 [[projects]]
   digest = "1:468aef208d16cf01b4ab6e1c6f4b439b8b8534589b0875a80a964687dd73871c"
@@ -597,7 +597,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:31401c753dad7a42e93d463bd437375eda35bf0d1606c1f7e0c6bfe7eb286ba8"
+  digest = "1:ecc7fbde3d397eb26aa33028e133ca762f7da31f1c9a7ca86867761282913bbe"
   name = "github.com/zclconf/go-cty"
   packages = [
     "cty",
@@ -609,7 +609,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "d9b87d891d0b42399ce5bab2f87ad2860ca0239c"
+  revision = "1f835aab79c29c842f2e8624541053e8ff618cd8"
 
 [[projects]]
   branch = "master"
@@ -627,7 +627,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "7c1a557ab941a71c619514f229f0b27ccb0c27cf"
+  revision = "a92615f3c49003920a58dedcf32cf55022cefb8d"
 
 [[projects]]
   branch = "master"
@@ -645,15 +645,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "146acd28ed5894421fb5aac80ca93bc1b1f46f87"
+  revision = "49bb7cea24b1df9410e1712aa6433dae904ff66a"
 
 [[projects]]
   branch = "master"
-  digest = "1:c2789211d4035eb0843b85958ecf7cb4a5ea91c2d4decee652c94ce898e433cb"
+  digest = "1:0a40b0bdd57a93e741d8557465be3a2edeec408e9b6399586ad65bbe8e355796"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "4497e2df6f9e69048a54498c7affbbec3294ad47"
+  revision = "fa43e7bc11baaae89f3f902b2b4d832b68234844"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
