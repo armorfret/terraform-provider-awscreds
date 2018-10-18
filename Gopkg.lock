@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:47c47d17af8503aae9d5b84d879425c18d6498ed9a07b20205dd1dc706bf1b3a"
+  digest = "1:7cfef76e51b4dc941d6eca613243302b888962b1d025860badd0d0fb051c48f4"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -157,8 +157,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "c35fe9d06b9f0cefe538ecdb7501c84603119dfb"
-  version = "v1.15.56"
+  revision = "66832f7f150914a46ffbfc03210f3b9cb0e4c005"
+  version = "v1.15.57"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -443,7 +443,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e08727cc2ce181e83b5b533591a556374db4be15fbf373ab1c3564474151cdad"
+  digest = "1:8c55c9e834711891700b83322851fbeda78ec45affce9f77ecb3249210c54983"
   name = "github.com/keybase/go-crypto"
   packages = [
     "brainpool",
@@ -460,7 +460,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "0b2a91ace4489933c854bb17d3f22dabdd91b455"
+  revision = "e696c8039bba3970bbf4f9c1cf745ee96a705656"
 
 [[projects]]
   digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
@@ -597,7 +597,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ecc7fbde3d397eb26aa33028e133ca762f7da31f1c9a7ca86867761282913bbe"
+  digest = "1:e77fdd77613344e716e0ce6c7cc28d8f6ebf02d938fad00db4b5fa73cb3589fb"
   name = "github.com/zclconf/go-cty"
   packages = [
     "cty",
@@ -609,7 +609,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "1f835aab79c29c842f2e8624541053e8ff618cd8"
+  revision = "01c5aba823a6c91fe3bc287fd6e493ca717a64b8"
 
 [[projects]]
   branch = "master"
@@ -645,7 +645,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "49bb7cea24b1df9410e1712aa6433dae904ff66a"
+  revision = "04a2e542c03f1d053ab3e4d6e5abcd4b66e2be8e"
 
 [[projects]]
   branch = "master"
