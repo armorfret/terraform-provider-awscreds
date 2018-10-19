@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:7cfef76e51b4dc941d6eca613243302b888962b1d025860badd0d0fb051c48f4"
+  digest = "1:3de38ce0c80a00d04136288ef9247f8caf3a160e382c16a57c31aaa0ca720b4f"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -85,6 +85,7 @@
     "service/cloud9",
     "service/cloudformation",
     "service/cloudfront",
+    "service/cloudhsmv2",
     "service/cloudtrail",
     "service/cloudwatch",
     "service/cloudwatchevents",
@@ -157,8 +158,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "66832f7f150914a46ffbfc03210f3b9cb0e4c005"
-  version = "v1.15.57"
+  revision = "2324d8a7db41970a80d19791bd30b94f632ce0cc"
+  version = "v1.15.58"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -575,12 +576,12 @@
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:b55ad8642264ad7a336ae9e0300cdc7d351fe55b1f03da20931c2ebf1617de30"
+  digest = "1:1339e5a709e36af06a1bba47b113820feefbadef9aa53b821d05f2cf87d6b184"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "0cb57f8869ac30d25e324b9d2cec1b5dc604ed3b"
-  version = "v1.40.0"
+  revision = "398798635490d69a7275fd989089db3f305e30c6"
+  version = "v1.41.0"
 
 [[projects]]
   digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
@@ -649,11 +650,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:0a40b0bdd57a93e741d8557465be3a2edeec408e9b6399586ad65bbe8e355796"
+  digest = "1:cac3a36f7f19996a436d6dff53a5cdac9f68ad1ee5e941065113880798df0505"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "fa43e7bc11baaae89f3f902b2b4d832b68234844"
+  revision = "8f1d3d21f81be6e86ebcd6febee89c89bc50719f"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
