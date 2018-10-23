@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:772beacecb2ef6394439184931a1ea4744138631b1dee09d316144561844a889"
+  digest = "1:d56c1251c7b1f20abec2b262de1453ea52eac769f29482ecf63f2faa4e2334c6"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -159,8 +159,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "c0037b52736b07cea4e0cb6521f7995adef833bc"
-  version = "v1.15.59"
+  revision = "58fbceeaf77b78c7aa2d44b7a93431eba0468917"
+  version = "v1.15.60"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -362,7 +362,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:d71b0ba05d36c9e3f4e26b686afdbe25bc361b4d91da842d382e3d02172bc718"
+  digest = "1:fe31f926054c5cf2056b7f38a2242a9d212d7240539a920c6f746f365e5ac0f1"
   name = "github.com/hashicorp/terraform"
   packages = [
     "config",
@@ -397,11 +397,11 @@
     "version",
   ]
   pruneopts = "UT"
-  revision = "4e44b41c8bc1b533d14f9939690adf09e3d2a2be"
-  version = "v0.11.9"
+  revision = "17850e9a55d33c43d7c31fd6ac122ba97a51d899"
+  version = "v0.11.10"
 
 [[projects]]
-  digest = "1:e5987f8c8e412bf7f82c0fa05c81442aed4f880d0007b47d722be16fb31a737b"
+  digest = "1:5d0c127c960a8a0e45f347a4921a5e4ff2d7c801c36ce9096a853aa3a5a447b1"
   name = "github.com/hashicorp/vault"
   packages = [
     "helper/compressutil",
@@ -409,8 +409,8 @@
     "helper/pgpkeys",
   ]
   pruneopts = "UT"
-  revision = "fb601237bfbe4bc16ff679f642248ee8a86e627b"
-  version = "v0.11.3"
+  revision = "612120e76de651ef669c9af5e77b27a749b0dba3"
+  version = "v0.11.4"
 
 [[projects]]
   branch = "master"
@@ -639,15 +639,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "04a2e542c03f1d053ab3e4d6e5abcd4b66e2be8e"
+  revision = "9b4f9f5ad5197c79fd623a3638e70d8b26cef344"
 
 [[projects]]
   branch = "master"
-  digest = "1:be4f165c438aa39318fd5c8c180a95f4a52524641c0b714638b0fd9fd912b38d"
+  digest = "1:2e50f1b357b5045529ef66440674e7b17f5e433df8aaac85d10c4ab61dc70eb4"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "8e24a49d80f82323e1c4db1b5da3e0f31171a151"
+  revision = "44b849a8bc13eb42e95e6c6c5e360481b73ec710"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -681,7 +681,7 @@
   revision = "94acd270e44e65579b9ee3cdab25034d33fed608"
 
 [[projects]]
-  digest = "1:1b6d2676ea895d33cbd1999c75dfc8e25b103c754ccfc66dc06ae845ce3a47bc"
+  digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
   name = "google.golang.org/grpc"
   packages = [
     ".",
@@ -714,8 +714,8 @@
     "tap",
   ]
   pruneopts = "UT"
-  revision = "8dea3dc473e90c8179e519d91302d0597c0ca1d1"
-  version = "v1.15.0"
+  revision = "2e463a05d100327ca47ac218281906921038fd95"
+  version = "v1.16.0"
 
 [[projects]]
   digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
