@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:d56c1251c7b1f20abec2b262de1453ea52eac769f29482ecf63f2faa4e2334c6"
+  digest = "1:13f387c89f7de1dc2983f55d52d1985ddf3719c6bd865b2e66bda358b6f8604a"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -159,8 +159,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "58fbceeaf77b78c7aa2d44b7a93431eba0468917"
-  version = "v1.15.60"
+  revision = "c446a547f59665b7ce54ac57bd8f8b04e5179563"
+  version = "v1.15.62"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -621,7 +621,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "0c41d7ab0a0ee717d4590a44bcb987dfd9e183eb"
+  revision = "74cb1d3d52f4c01cbfb44c1b50d204462f3124c7"
 
 [[projects]]
   branch = "master"
@@ -643,11 +643,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2e50f1b357b5045529ef66440674e7b17f5e433df8aaac85d10c4ab61dc70eb4"
+  digest = "1:319824e5bacea4b7b1408522f7ee56a15fb21b9cb374baa77aecb44c4d1bd0f8"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "44b849a8bc13eb42e95e6c6c5e360481b73ec710"
+  revision = "5cd93ef61a7c8f0f858690154eb6de2e69415fa1"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
