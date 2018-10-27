@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:13f387c89f7de1dc2983f55d52d1985ddf3719c6bd865b2e66bda358b6f8604a"
+  digest = "1:75f64179007b60fb025250f57ac6664a77bc4457bfc3eb54f31359acd901d1e8"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -159,8 +159,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "c446a547f59665b7ce54ac57bd8f8b04e5179563"
-  version = "v1.15.62"
+  revision = "34ab03ee1a2b90b3baf97ff666397c8fb9b8714b"
+  version = "v1.15.64"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -556,7 +556,7 @@
   version = "v2.0.7"
 
 [[projects]]
-  digest = "1:2ef797d5fe5b23bdcc75655d4a2a89577cdb61ad14698845bcc12a2d133c9f8f"
+  digest = "1:57e168c6dfcc02c1c53bdf1589afbef59694d819cac65bfd3a855de2256d4950"
   name = "github.com/posener/complete"
   packages = [
     ".",
@@ -565,8 +565,8 @@
     "match",
   ]
   pruneopts = "UT"
-  revision = "ffc2cf5e958af5ac4156a886153c7cadd24a521a"
-  version = "v1.2.0"
+  revision = "3ef9b31a6a0613ae832e7ecf208374027c3b2343"
+  version = "v1.2.1"
 
 [[projects]]
   digest = "1:1339e5a709e36af06a1bba47b113820feefbadef9aa53b821d05f2cf87d6b184"
@@ -607,7 +607,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fc3e1f838b92bf8686f808fb62f35e35f18f1fcfc99841c30cc189593bb6695d"
+  digest = "1:1d95fa041f10d490afa76e179384ba5f337fa79dbfba4fd8028eb8e997f375bf"
   name = "golang.org/x/crypto"
   packages = [
     "bcrypt",
@@ -621,7 +621,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "74cb1d3d52f4c01cbfb44c1b50d204462f3124c7"
+  revision = "e84da0312774c21d64ee2317962ef669b27ffb41"
 
 [[projects]]
   branch = "master"
@@ -643,11 +643,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:319824e5bacea4b7b1408522f7ee56a15fb21b9cb374baa77aecb44c4d1bd0f8"
+  digest = "1:f22e437d9328275884d0ae018ed0de4c280871c944a5ab332aa37fd71fb5801b"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "5cd93ef61a7c8f0f858690154eb6de2e69415fa1"
+  revision = "95b1ffbd15a57cc5abb3f04402b9e8ec0016a52c"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -678,7 +678,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "94acd270e44e65579b9ee3cdab25034d33fed608"
+  revision = "8b5d7a19e2d98fbad9aaf9c599776bf066d7c70f"
 
 [[projects]]
   digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
