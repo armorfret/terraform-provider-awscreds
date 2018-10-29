@@ -577,7 +577,7 @@
   version = "v1.41.0"
 
 [[projects]]
-  digest = "1:4aeb3860275fa1fd60cccfb5a6ef85da438bf17402e1e84412ade4d4b55066a0"
+  digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
   name = "github.com/ulikunitz/xz"
   packages = [
     ".",
@@ -586,8 +586,8 @@
     "lzma",
   ]
   pruneopts = "UT"
-  revision = "0c6b41e72360850ca4f98dc341fd999726ea007f"
-  version = "v0.5.4"
+  revision = "590df8077fbcb06ad62d7714da06c00e5dd2316d"
+  version = "v0.5.5"
 
 [[projects]]
   branch = "master"
@@ -607,7 +607,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1d95fa041f10d490afa76e179384ba5f337fa79dbfba4fd8028eb8e997f375bf"
+  digest = "1:709cfa5f38df971b6581b65afcef5648228010f5be60dfe93d126f4e497bdaa0"
   name = "golang.org/x/crypto"
   packages = [
     "bcrypt",
@@ -621,11 +621,11 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "e84da0312774c21d64ee2317962ef669b27ffb41"
+  revision = "dab2b1051b5dd33a57e97c4774ed152e6a6c9a13"
 
 [[projects]]
   branch = "master"
-  digest = "1:57558ae9af42770158eb5584d9466101c965cd644b01d32dd15720da0a4a0286"
+  digest = "1:2f7468b0b3fd7d926072f0dcbb6ec81e337278b4e5de639d017e54f785f0b475"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -639,7 +639,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "9b4f9f5ad5197c79fd623a3638e70d8b26cef344"
+  revision = "c44066c5c816ec500d459a2a324a753f78531ae0"
 
 [[projects]]
   branch = "master"
