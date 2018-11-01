@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:4c260982ad3ac6045ef726e3c033af764e8ff824f4d64346e070282ea16f7d50"
+  digest = "1:68ceae3516a7c24e7ad48964278a1b200e2474f54ce248420493f406e11daad6"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -159,8 +159,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "870fa4307c5f57c14153c695df7b87af1acdcbf1"
-  version = "v1.15.66"
+  revision = "97a47d14fbb0744966b484d5b089cdc9814b493b"
+  version = "v1.15.67"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -626,7 +626,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2f7468b0b3fd7d926072f0dcbb6ec81e337278b4e5de639d017e54f785f0b475"
+  digest = "1:d5a1ab82761bb357dcc90a5ca0f5356a573686fc37f21a51adc3830b0aa48fb6"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -640,7 +640,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "c44066c5c816ec500d459a2a324a753f78531ae0"
+  revision = "e11730110bbd884bbf19550bfafe9d69519ce29e"
 
 [[projects]]
   branch = "master"
@@ -679,7 +679,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "b69ba1387ce2108ac9bc8e8e5e5a46e7d5c72313"
+  revision = "c830210a61dfaa790e1920f8d0470fc27bc2efbe"
 
 [[projects]]
   digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
