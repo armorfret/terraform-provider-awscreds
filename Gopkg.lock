@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:75f64179007b60fb025250f57ac6664a77bc4457bfc3eb54f31359acd901d1e8"
+  digest = "1:4c260982ad3ac6045ef726e3c033af764e8ff824f4d64346e070282ea16f7d50"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -159,8 +159,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "34ab03ee1a2b90b3baf97ff666397c8fb9b8714b"
-  version = "v1.15.64"
+  revision = "870fa4307c5f57c14153c695df7b87af1acdcbf1"
+  version = "v1.15.66"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -277,11 +277,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:880e48599e7f65dd85eed8092d63ebcbc73715491aec1a857adbce6d9d51d1ac"
+  digest = "1:12fd3b73c54592003bf5214e9efff0092abaa173eedfc5390ed17431ed5dde1e"
   name = "github.com/hashicorp/go-plugin"
   packages = ["."]
   pruneopts = "UT"
-  revision = "314501b665e0b2cc71bbd829783179fc38840a85"
+  revision = "54b6ff97d8180dbbd93d2010dd4a92c86f604bb8"
 
 [[projects]]
   digest = "1:605c47454db9040e30b20dc1b29e3e9d42d6ee742545729cdef74afb1b898ad0"
@@ -437,7 +437,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8c55c9e834711891700b83322851fbeda78ec45affce9f77ecb3249210c54983"
+  digest = "1:02dff176d57c4b61efe3e0d5b4265c7ea1a75a4efa772908ea4a319093af72dd"
   name = "github.com/keybase/go-crypto"
   packages = [
     "brainpool",
@@ -452,9 +452,10 @@
     "openpgp/errors",
     "openpgp/packet",
     "openpgp/s2k",
+    "rsa",
   ]
   pruneopts = "UT"
-  revision = "e696c8039bba3970bbf4f9c1cf745ee96a705656"
+  revision = "f919bfda4fc10acaf5347685a9f22ea48d8db04c"
 
 [[projects]]
   digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
@@ -569,12 +570,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:1339e5a709e36af06a1bba47b113820feefbadef9aa53b821d05f2cf87d6b184"
+  digest = "1:27e922a7193087d45c32ec332f25ec7cbe387e6a762738a4c7384cf35c88654d"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "398798635490d69a7275fd989089db3f305e30c6"
-  version = "v1.41.0"
+  revision = "3f8049c5df093ab2cf61951fcfa2872a0d4e2f26"
+  version = "v1.42.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -621,7 +622,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "7e6ffbd038512da5ae7ce06c196764f393990be1"
+  revision = "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
 
 [[projects]]
   branch = "master"
@@ -643,11 +644,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fbacfb57e3d052810813bca2d48c22fbde916ecfc4a2bac08df30ed6e9e59759"
+  digest = "1:35560529f5721d65f36dc23aa15fbf7306c5091cdc3f29f65881af5031b80cc8"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "d69651ed3497faee15a5363a89578e9991f6d5e2"
+  revision = "9b800f95dbbc54abff0acf7ee32d88ba4e328c89"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
