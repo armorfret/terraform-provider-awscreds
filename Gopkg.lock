@@ -340,7 +340,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e7282875c9de7c86e9675c98280c988e5d3625a70e7b48e72ad3c95de4b5da8d"
+  digest = "1:0e85b7146987d600289c5bc454ddc63745e90ebc2378bbb7d7ed27034b9c0913"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -352,7 +352,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "1b9738a1964545de8192fe2af11f73c24e35ce72"
+  revision = "917fbe66e76dffa8e62448fbda375b230657897f"
 
 [[projects]]
   branch = "master"
