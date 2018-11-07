@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:163f5e58eb48bb58b7729e3815cb817a531366a398c2cdc1495c8180e95d31a8"
+  digest = "1:0cf2b14f6dfa5c62457df513c667083a302cb93bca9bce4bc9088ce02c16bd37"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -48,6 +48,7 @@
     "aws/credentials/ec2rolecreds",
     "aws/credentials/endpointcreds",
     "aws/credentials/stscreds",
+    "aws/crr",
     "aws/csm",
     "aws/defaults",
     "aws/ec2metadata",
@@ -159,8 +160,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "3264db248fe8d241f6949ed35e33b11c0aec3c93"
-  version = "v1.15.68"
+  revision = "b20851c3cbaede4743ba0672171623986539f0b4"
+  version = "v1.15.70"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -352,7 +353,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "917fbe66e76dffa8e62448fbda375b230657897f"
+  revision = "9aa28a1a0b53898722ac1d8759db800bf31a8c81"
 
 [[projects]]
   branch = "master"
@@ -636,7 +637,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
+  revision = "e4dc69e5b2fd71dcaf8bd5d054eb936deb78d1fa"
 
 [[projects]]
   branch = "master"
@@ -654,15 +655,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "c10e9556a7bc0e7c942242b606f0acf024ad5d6a"
+  revision = "10aee181995363b41f712a55844a0dd52ea04646"
 
 [[projects]]
   branch = "master"
-  digest = "1:35560529f5721d65f36dc23aa15fbf7306c5091cdc3f29f65881af5031b80cc8"
+  digest = "1:e2503f590982f6c0cc06abd7b94b17ded6804bada8eb79af753b5fb676dfdecc"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "9b800f95dbbc54abff0acf7ee32d88ba4e328c89"
+  revision = "3a76605856fddce5718553cbb8bd50ca492a7274"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
