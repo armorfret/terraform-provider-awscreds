@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:0cf2b14f6dfa5c62457df513c667083a302cb93bca9bce4bc9088ce02c16bd37"
+  digest = "1:8913d5a5469b2dc8f2f6e84d61037fb2dbb254d1fee54002dbbaaa0018039bd6"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -104,6 +104,7 @@
     "service/devicefarm",
     "service/directconnect",
     "service/directoryservice",
+    "service/dlm",
     "service/dynamodb",
     "service/ec2",
     "service/ecr",
@@ -127,6 +128,7 @@
     "service/inspector",
     "service/iot",
     "service/kinesis",
+    "service/kinesisanalytics",
     "service/kms",
     "service/lambda",
     "service/lexmodelbuildingservice",
@@ -160,8 +162,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "b20851c3cbaede4743ba0672171623986539f0b4"
-  version = "v1.15.70"
+  revision = "8cb75b60636a37baea457bc6d900b49d663e309c"
+  version = "v1.15.71"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -585,12 +587,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:27e922a7193087d45c32ec332f25ec7cbe387e6a762738a4c7384cf35c88654d"
+  digest = "1:f851a9333f2c8f41a81ab6edfeee600ba6eff80ebb0caf743b85efe3ceeb0c3c"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "3f8049c5df093ab2cf61951fcfa2872a0d4e2f26"
-  version = "v1.42.0"
+  revision = "27a40104b6dd57e20b5ea02bb58f221c3878da73"
+  version = "v1.43.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -641,7 +643,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:d5a1ab82761bb357dcc90a5ca0f5356a573686fc37f21a51adc3830b0aa48fb6"
+  digest = "1:fdaea4415a06db3f48abbc0b70749fdffa93a6824e71c1f82b78af430e925c53"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -655,15 +657,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "10aee181995363b41f712a55844a0dd52ea04646"
+  revision = "1c5f79cfb1642860bbe00b6cfce66700c01e04f6"
 
 [[projects]]
   branch = "master"
-  digest = "1:e2503f590982f6c0cc06abd7b94b17ded6804bada8eb79af753b5fb676dfdecc"
+  digest = "1:7ba061af4131fb44b30448572acd0d6fefbf63a61b97b7ef1dea0be5871c2742"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "3a76605856fddce5718553cbb8bd50ca492a7274"
+  revision = "66b7b1311ac80bbafcd2daeef9a5e6e2cd1e2399"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -694,7 +696,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "c830210a61dfaa790e1920f8d0470fc27bc2efbe"
+  revision = "5fc9ac5403620be16bcdb0c8e7644b1178472c3b"
 
 [[projects]]
   digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
