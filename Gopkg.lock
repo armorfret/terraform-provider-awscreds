@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:8913d5a5469b2dc8f2f6e84d61037fb2dbb254d1fee54002dbbaaa0018039bd6"
+  digest = "1:d09136616e633da4487af116bdbdf52f4852e52922afcffc6901912529d6e5d2"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -162,8 +162,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "8cb75b60636a37baea457bc6d900b49d663e309c"
-  version = "v1.15.71"
+  revision = "cf00ea20983ce38df17ab0a0814463ab8838459f"
+  version = "v1.15.73"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -266,14 +266,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:724d270a4cac0945dedb8de6357625a9d976cb640d381d3dab3144cec295db26"
+  digest = "1:f3dabe4617e484e26e66484ad65e0a01babc54806a9e0fac1a10f726eed8c08b"
   name = "github.com/hashicorp/go-getter"
   packages = [
     ".",
     "helper/url",
   ]
   pruneopts = "UT"
-  revision = "4bda8fa99001c61db3cad96b421d4c12a81f256d"
+  revision = "b6e1d7a3a7873d94fe3e42a0817345427ed17f1b"
 
 [[projects]]
   branch = "master"
@@ -587,12 +587,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:f851a9333f2c8f41a81ab6edfeee600ba6eff80ebb0caf743b85efe3ceeb0c3c"
+  digest = "1:6f10f5b6ae4b52b41ece23aff8a19ee597f12dd2718fa0e1ab1befc3551a507c"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "27a40104b6dd57e20b5ea02bb58f221c3878da73"
-  version = "v1.43.0"
+  revision = "707d414c981ff5f90d5981b84c345cdd9216fab1"
+  version = "v1.43.1"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -643,7 +643,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fdaea4415a06db3f48abbc0b70749fdffa93a6824e71c1f82b78af430e925c53"
+  digest = "1:91e16764720d5fc23def26777a8d527badeb72fbb8185d2abb45da448d2dc180"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -657,7 +657,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "1c5f79cfb1642860bbe00b6cfce66700c01e04f6"
+  revision = "03003ca0c849e57b6ea29a4bab8d3cb6e4d568fe"
 
 [[projects]]
   branch = "master"
@@ -696,7 +696,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "5fc9ac5403620be16bcdb0c8e7644b1178472c3b"
+  revision = "b5d43981345bdb2c233eb4bf3277847b48c6fdc6"
 
 [[projects]]
   digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
