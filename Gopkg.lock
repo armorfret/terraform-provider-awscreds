@@ -343,7 +343,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:0e85b7146987d600289c5bc454ddc63745e90ebc2378bbb7d7ed27034b9c0913"
+  digest = "1:f8c6767a030eb9038b4c8c58616ea7055cd2f00526608695b4a03fe4a5b6f770"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -355,7 +355,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "9aa28a1a0b53898722ac1d8759db800bf31a8c81"
+  revision = "0467c0c38ca2d4197a5180c45fc29baf80dad0a0"
 
 [[projects]]
   branch = "master"
@@ -587,12 +587,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:6f10f5b6ae4b52b41ece23aff8a19ee597f12dd2718fa0e1ab1befc3551a507c"
+  digest = "1:d2838d80236767e39725269ebf3a8835fc4a681197854ae7eb64dcb6a8436578"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "707d414c981ff5f90d5981b84c345cdd9216fab1"
-  version = "v1.43.1"
+  revision = "3784fd0a06eaebd35be66620bbd51b2f3d82556e"
+  version = "v1.43.2"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
