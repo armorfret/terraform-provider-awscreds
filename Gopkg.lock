@@ -587,12 +587,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:75f98c53818058bd7e952b595bf675923b1765fa43f1d00365a72c23008fa24e"
+  digest = "1:87deda604c1ea13da36f14ea6a212aa523af40e017656f246cf1dfd0f682751d"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "fa5fb2f6eeefa1f22e8861ef174c3cc44ae116c6"
-  version = "v1.44.0"
+  revision = "19559347e9b54cb07b09ef28a9617f4250df12bf"
+  version = "v1.45.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
