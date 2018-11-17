@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:68256a25100227721694747e3744e98fc6890a2b707115b44cf2beebca38e7ad"
+  digest = "1:4fe3d4fc98b96cfe1bd27cf2cc2cd43789e1fbf2c53b8b49c86b260cf99d80d9"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -162,8 +162,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "5021928b560f2919fa37e159720a45ea13b18d8f"
-  version = "v1.15.76"
+  revision = "5ebc7a404e942062fd3aa7ff50975498716eb990"
+  version = "v1.15.78"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -266,14 +266,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:766789501ba86c47c5fe81d7d50f4fb432ed588e790dc46fa3bbab2675ca0a61"
+  digest = "1:d2e8ff30ba336738673c8d5e85b39110feb2b3c2f817938b1d75aad4fce5bdd0"
   name = "github.com/hashicorp/go-getter"
   packages = [
     ".",
     "helper/url",
   ]
   pruneopts = "UT"
-  revision = "7ee49f69de937ddc17eb72bc669c020b33c364d4"
+  revision = "cd71cead8c7158223dfb2b25daa6c9ee577f660e"
 
 [[projects]]
   branch = "master"
@@ -661,11 +661,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:7ba061af4131fb44b30448572acd0d6fefbf63a61b97b7ef1dea0be5871c2742"
+  digest = "1:a62e80faf19c93dcbd7954a26fdb51acbfcb4b7161966adf1de531e593c4834a"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "66b7b1311ac80bbafcd2daeef9a5e6e2cd1e2399"
+  revision = "93218def8b18e66adbdab3eca8ec334700329f1f"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
