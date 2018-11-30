@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:88a33d7e4f037fb4bfff19bcb7ca0d5ed1027ce74cf770f7a1bdd969fd1c7068"
+  digest = "1:c9bdd6eb6c757163b96ce37b6d5a578602d48d1ccc6c901dbe3c5432faabf172"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -163,8 +163,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "89734ade0df0a4a437cbf4aa9c14e17daf37c5ac"
-  version = "v1.15.86"
+  revision = "ceab7b7ac6f535d1397f124620720b5145f1ad59"
+  version = "v1.15.88"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -356,7 +356,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "67424e43b1841759fe3f4f83013c58707d7027f0"
+  revision = "4d82d52bfa4905585cc7c1a8e188afeca6e34035"
 
 [[projects]]
   branch = "master"
@@ -588,12 +588,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:97e2ab424696fe31a4f9a5949a0281289eb7f130bddf9f8adbe78cf8601bba73"
+  digest = "1:e427fb75a44dfdf835c9989222b14fcaa7bfc385c96ec36b68ac040f9df4ca66"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "719448954db896068f5b4ffb0a318e3c10343200"
-  version = "v1.49.0"
+  revision = "f60f64198d7311664fda87a1f02c12db29246ace"
+  version = "v1.50.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -610,7 +610,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:73e008ce749f2d07c67584b6cbaa2bf8bc92da6a83873983c7daff7c910b05bc"
+  digest = "1:93668c50e410f08b4efbc19da15eaf26b79a46d00df68e1da43420f2bdea8518"
   name = "github.com/zclconf/go-cty"
   packages = [
     "cty",
@@ -622,7 +622,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "cb774055206240f991922bed9585444fbc3969f5"
+  revision = "88fbe721e0f8ab7b3ba2d11da5c79f4900b6d762"
 
 [[projects]]
   branch = "master"
@@ -737,12 +737,12 @@
   version = "v1.16.0"
 
 [[projects]]
-  digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
+  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   pruneopts = "UT"
-  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
-  version = "v2.2.1"
+  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
+  version = "v2.2.2"
 
 [solve-meta]
   analyzer-name = "dep"
