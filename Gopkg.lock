@@ -626,7 +626,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:3eb69f36ea2a56248739a270b3146a5a8c396b68c7f4c342682a79f5fe8233d7"
+  digest = "1:b7b8858de4aba997e54312603676a8f76cedf82e161bf24ada19965d0460dae9"
   name = "golang.org/x/crypto"
   packages = [
     "bcrypt",
@@ -640,7 +640,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "eb0de9b17e854e9b1ccd9963efafc79862359959"
+  revision = "505ab145d0a99da450461ae2c1a9f6cd10d1f447"
 
 [[projects]]
   branch = "master"
@@ -693,11 +693,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:56b0bca90b7e5d1facf5fbdacba23e4e0ce069d25381b8e2f70ef1e7ebfb9c1a"
+  digest = "1:077c1c599507b3b3e9156d17d36e1e61928ee9b53a5b420f10f28ebd4a0b275c"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "31ac5d88444a9e7ad18077db9a165d793ad06a2e"
+  revision = "bd91e49a0898e27abb88c339b432fa53d7497ac0"
 
 [[projects]]
   digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
