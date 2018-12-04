@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:c9bdd6eb6c757163b96ce37b6d5a578602d48d1ccc6c901dbe3c5432faabf172"
+  digest = "1:fe8ed11778af98e8cb63924d70f614eec18f8d8b800fe9e9d875425b52d9a753"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -163,8 +163,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "ceab7b7ac6f535d1397f124620720b5145f1ad59"
-  version = "v1.15.88"
+  revision = "6b08b085a17ae5a6040fdb67971812696569dced"
+  version = "v1.15.89"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -344,7 +344,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1b207419426be948bb2d18912d3f154a297723725a6eade23a7f8ceaaea4a1c6"
+  digest = "1:009740cffcd194763f282a5eca5a51d88e32e3fd5a975623b6a2e42dbb695292"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -356,7 +356,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "4d82d52bfa4905585cc7c1a8e188afeca6e34035"
+  revision = "cd67ba1b25f3a36b5a3457254c7c61ca009f5911"
 
 [[projects]]
   branch = "master"
@@ -419,7 +419,7 @@
   version = "v0.11.10"
 
 [[projects]]
-  digest = "1:5d0c127c960a8a0e45f347a4921a5e4ff2d7c801c36ce9096a853aa3a5a447b1"
+  digest = "1:05bd7dff5b5ed57cc9aa070b730659ac4c8d9495b91012916654d61041eadb62"
   name = "github.com/hashicorp/vault"
   packages = [
     "helper/compressutil",
@@ -427,8 +427,8 @@
     "helper/pgpkeys",
   ]
   pruneopts = "UT"
-  revision = "a59ffa4a0f09bbf198241fe6793a96722789b639"
-  version = "v0.11.5"
+  revision = "c19cef14891751a23eaa9b41fd456d1f99e7e856"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
