@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:fe8ed11778af98e8cb63924d70f614eec18f8d8b800fe9e9d875425b52d9a753"
+  digest = "1:85e21347f6af8e45558f076e216c23bfe2584b1b1fb70f83e72dea22041d9bcd"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -47,6 +47,7 @@
     "aws/credentials",
     "aws/credentials/ec2rolecreds",
     "aws/credentials/endpointcreds",
+    "aws/credentials/processcreds",
     "aws/credentials/stscreds",
     "aws/crr",
     "aws/csm",
@@ -79,6 +80,7 @@
     "service/acmpca",
     "service/apigateway",
     "service/applicationautoscaling",
+    "service/appmesh",
     "service/appsync",
     "service/athena",
     "service/autoscaling",
@@ -163,8 +165,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "6b08b085a17ae5a6040fdb67971812696569dced"
-  version = "v1.15.89"
+  revision = "c4e0e593d5f18b478f17ff0e86b56d41a70ced2d"
+  version = "v1.16.2"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -344,7 +346,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:009740cffcd194763f282a5eca5a51d88e32e3fd5a975623b6a2e42dbb695292"
+  digest = "1:8f2818d061b2db64cfa05b95676bd3354f6e9e6b8ac75f7f92f428bf4b075f22"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -356,7 +358,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "cd67ba1b25f3a36b5a3457254c7c61ca009f5911"
+  revision = "6709268582006e0ec36ff54654fde9d68a46514a"
 
 [[projects]]
   branch = "master"
@@ -447,11 +449,11 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:e22af8c7518e1eab6f2eab2b7d7558927f816262586cd6ed9f349c97a6c285c4"
+  digest = "1:bb81097a5b62634f3e9fec1014657855610c82d19b9a40c17612e32651e35dca"
   name = "github.com/jmespath/go-jmespath"
   packages = ["."]
   pruneopts = "UT"
-  revision = "0b12d6b5"
+  revision = "c2b33e84"
 
 [[projects]]
   branch = "master"
@@ -588,12 +590,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:e427fb75a44dfdf835c9989222b14fcaa7bfc385c96ec36b68ac040f9df4ca66"
+  digest = "1:ecaf69aef526ed3603993e2b9b4f8912b5f607cc711f25ea5ad1bf368c59a974"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "f60f64198d7311664fda87a1f02c12db29246ace"
-  version = "v1.50.0"
+  revision = "fe428d479613a9f0b445f1c6fe689ad210fc63c5"
+  version = "v1.51.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -658,15 +660,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "351d144fa1fc0bd934e2408202be0c29f25e35a0"
+  revision = "610586996380ceef02dd726cc09df7e00a3f8e56"
 
 [[projects]]
   branch = "master"
-  digest = "1:8775d8a768d9e65e8b659172804aac5db1fc8d563ba766470a6c2698c57c61a7"
+  digest = "1:9399de11945e643d7131cf070736122b76800d92d57a80494bd9a4e73e6979f3"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "4ed8d59d0b35e1e29334a206d1b3f38b1e5dfb31"
+  revision = "70b957f3b65e069b4930ea94e2721eefa0f8f695"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -700,16 +702,18 @@
   revision = "bd91e49a0898e27abb88c339b432fa53d7497ac0"
 
 [[projects]]
-  digest = "1:95550b4aa2a79019c2a832c1a7d6a5446b046e3ee8cce12a042778ac0ac47baf"
+  digest = "1:03af1505694005143ff6dc5d0e2802c8200ddb618b1d3f7201482f53798b99b4"
   name = "google.golang.org/grpc"
   packages = [
     ".",
     "balancer",
     "balancer/base",
     "balancer/roundrobin",
+    "binarylog/grpc_binarylog_v1",
     "codes",
     "connectivity",
     "credentials",
+    "credentials/internal",
     "encoding",
     "encoding/proto",
     "grpclog",
@@ -717,9 +721,12 @@
     "health/grpc_health_v1",
     "internal",
     "internal/backoff",
+    "internal/binarylog",
     "internal/channelz",
     "internal/envconfig",
     "internal/grpcrand",
+    "internal/grpcsync",
+    "internal/syscall",
     "internal/transport",
     "keepalive",
     "metadata",
@@ -733,8 +740,8 @@
     "tap",
   ]
   pruneopts = "UT"
-  revision = "2e463a05d100327ca47ac218281906921038fd95"
-  version = "v1.16.0"
+  revision = "df014850f6dee74ba2fc94874043a9f3f75fbfd8"
+  version = "v1.17.0"
 
 [[projects]]
   digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
