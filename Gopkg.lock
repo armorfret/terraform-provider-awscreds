@@ -624,7 +624,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "88fbe721e0f8ab7b3ba2d11da5c79f4900b6d762"
+  revision = "3a13afc1279233ce3efad28cffaf1d20e7008118"
 
 [[projects]]
   branch = "master"
@@ -664,11 +664,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:eadf44cffe7fd1f587d8a9bd36fa3eb959b9b8e51840bfba34754db00cdf7e6b"
+  digest = "1:e52bdb638551e9a3d12b62c90ede03f09dc19348902cb6acd3aad8d0f45d1d5a"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "ad97f365e15054527b467150f898ec66d7f81e14"
+  revision = "2a47403f2ae58167c4d75973960ccc62b28cb0d8"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
