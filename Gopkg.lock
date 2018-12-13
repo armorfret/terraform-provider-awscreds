@@ -269,14 +269,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ff91f36d00e6942621659bdceafa78b3708f1d15cf54d8f72c1ed5e0a73227f1"
+  digest = "1:6ec15ac3fb01fe9fd3339c297bae016e8110c1ac438b83f6cffd4b84a0624e95"
   name = "github.com/hashicorp/go-getter"
   packages = [
     ".",
     "helper/url",
   ]
   pruneopts = "UT"
-  revision = "bd1edc22f8ea9d71b87fbdc0c07f0afb77ae39b6"
+  revision = "be39683deade1b3613258f751a2fad316d7b5e7c"
 
 [[projects]]
   branch = "master"
@@ -667,11 +667,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:57155adf6e39c5ea209e43df1399cd29d4d450a4c092f2f11b6f83b1574de73a"
+  digest = "1:1cd9dcec42d6f54ad1117651e03155ebac6fe72b021598b4247493ad8ccf72fd"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "b05ddf57801d2239d6ab0ee35f9d981e0420f4ac"
+  revision = "586ba8c9bb141bbbea1ffb47b201443fd43385dd"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
