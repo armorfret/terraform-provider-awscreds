@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:85e21347f6af8e45558f076e216c23bfe2584b1b1fb70f83e72dea22041d9bcd"
+  digest = "1:8ad04f3bbe154616058d66405a17b8583c432e8d2cc6946c064bf4586230a60b"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -165,8 +165,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "c4e0e593d5f18b478f17ff0e86b56d41a70ced2d"
-  version = "v1.16.2"
+  revision = "a00e7512a2533cd96e525fe50607f9fe98badec3"
+  version = "v1.16.4"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -296,11 +296,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:12fd3b73c54592003bf5214e9efff0092abaa173eedfc5390ed17431ed5dde1e"
+  digest = "1:1f0c8665817a698bf12c6ad29922d6cdb85ecaa54dd404d77f91f58c6bccd84e"
   name = "github.com/hashicorp/go-plugin"
-  packages = ["."]
+  packages = [
+    ".",
+    "internal/proto",
+  ]
   pruneopts = "UT"
-  revision = "54b6ff97d8180dbbd93d2010dd4a92c86f604bb8"
+  revision = "f444068e8f5a19853177f7aa0aea7e7d95b5b528"
 
 [[projects]]
   digest = "1:605c47454db9040e30b20dc1b29e3e9d42d6ee742545729cdef74afb1b898ad0"
@@ -346,7 +349,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8f2818d061b2db64cfa05b95676bd3354f6e9e6b8ac75f7f92f428bf4b075f22"
+  digest = "1:18122b57ae1d1f4e5913bc1d4ba8f3bacda0743c94e10c17b0941fe393794c44"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -358,7 +361,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "6709268582006e0ec36ff54654fde9d68a46514a"
+  revision = "b056768a1c405961af2b4caf4d535e995457e0e4"
 
 [[projects]]
   branch = "master"
@@ -664,11 +667,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e52bdb638551e9a3d12b62c90ede03f09dc19348902cb6acd3aad8d0f45d1d5a"
+  digest = "1:57155adf6e39c5ea209e43df1399cd29d4d450a4c092f2f11b6f83b1574de73a"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "2a47403f2ae58167c4d75973960ccc62b28cb0d8"
+  revision = "b05ddf57801d2239d6ab0ee35f9d981e0420f4ac"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
