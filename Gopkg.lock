@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:8f54c1e1fdab1406fc961e082bccd5709dcfa09a31672c86262948a51699a8d9"
+  digest = "1:d53aeaf89e892853854a72e058a92fd0f948aeeb5e0d2008d5cda37b74c8a7dd"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -167,8 +167,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "a21788f1964e28dc1e3932e595db6707ce8070cf"
-  version = "v1.16.7"
+  revision = "8d41be8a37391ddc4feb2d16f5ca6f440eb8b356"
+  version = "v1.16.8"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -617,7 +617,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:93668c50e410f08b4efbc19da15eaf26b79a46d00df68e1da43420f2bdea8518"
+  digest = "1:879606ed954b7c3b80567db38968ec147e0cfecd10cee20e11d87d840325305f"
   name = "github.com/zclconf/go-cty"
   packages = [
     "cty",
@@ -629,7 +629,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "3a13afc1279233ce3efad28cffaf1d20e7008118"
+  revision = "4fe1e489ee06ac211df6f290ed1cfdd1e14c2ac6"
 
 [[projects]]
   branch = "master"
@@ -673,7 +673,7 @@
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "dcdaa6325bcb8d3c07805583fe12153f08a41e2b"
+  revision = "074acd46bca67915925527c07849494d115e7c43"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
