@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:d53aeaf89e892853854a72e058a92fd0f948aeeb5e0d2008d5cda37b74c8a7dd"
+  digest = "1:d2dde859f2863e06e5e17bb832753733b482bef12c136e83db4e73ad068ba5d9"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -167,8 +167,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "8d41be8a37391ddc4feb2d16f5ca6f440eb8b356"
-  version = "v1.16.8"
+  revision = "cae66ecf52e0171f937f1fa80e12130fbb652474"
+  version = "v1.16.9"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -351,7 +351,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:0b22d65953fa79a56665d209b72326a81e0660346641df7e8b951f06beb17db4"
+  digest = "1:872ef52e6a786933b2b882239bf613793f8cd61386915691ac14b5dde9afd887"
   name = "github.com/hashicorp/hcl2"
   packages = [
     "gohcl",
@@ -363,7 +363,7 @@
     "hclwrite",
   ]
   pruneopts = "UT"
-  revision = "253da47fd604c8c6c857af9826021d65e50d9b4c"
+  revision = "291f7fbe431dd932be562a98ef0d12a0c1dfacd5"
 
 [[projects]]
   branch = "master"
@@ -704,7 +704,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "67d6565462c5a0d99b88193d59fefa10ca7e3010"
+  revision = "5a97ab628bfb2f65f6befec18f4bc7bc7f382b77"
 
 [[projects]]
   digest = "1:03af1505694005143ff6dc5d0e2802c8200ddb618b1d3f7201482f53798b99b4"
