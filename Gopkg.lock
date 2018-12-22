@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:c62c606d47a5d4ea4dee23565a4ebfe3349a00586dbf13882e384d80da7ac813"
+  digest = "1:f02651c2ee2f8016bcc5e41bd208857ec8879dad4b4dfac50e6df6b1e30b5485"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -169,8 +169,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "103cb51d5be1d3e4735da3ed250f27df6c73fadf"
-  version = "v1.16.10"
+  revision = "3991042237b45cf58c9d5f34295942d5533c28c6"
+  version = "v1.16.11"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -597,12 +597,12 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:76e52fef21a29d9219cd6a9a4f80dba90d677ad9ddee46c25cfc3d7e4a331611"
+  digest = "1:fa7c0404cbcec65a072af70520673043114b3f2a1c7d363c990364e843be7435"
   name = "github.com/terraform-providers/terraform-provider-aws"
   packages = ["aws"]
   pruneopts = "UT"
-  revision = "a4496f2a0711e9b6c229fbc58ff04c47db2ed48a"
-  version = "v1.53.0"
+  revision = "dd35824d4b8dde11b526cda4a1adf62fd53cedcd"
+  version = "v1.54.0"
 
 [[projects]]
   digest = "1:db345c377984d0907323c09a9b17f11d995a59649fd38f909727df358b5f9020"
@@ -671,11 +671,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:71f29ade3ca8b29a03a0506acdaddb46060a1f36389ff62b7f873caaeb582b8f"
+  digest = "1:9652da56be8fe4998e79e36be6b9d30fe4fd4aacb73ecf0d9b3a33228189dc7e"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "b00e65af1da0681cde6c8227839a0ca53bbf16bb"
+  revision = "b4a75ba826a64a70990f11a225237acd6ef35c9f"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -706,7 +706,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "a1fde740824669f161e97af4237fb80b8734444d"
+  revision = "bd9b4fb69e2ffd37621a6caa54dcbead29b546f2"
 
 [[projects]]
   digest = "1:03af1505694005143ff6dc5d0e2802c8200ddb618b1d3f7201482f53798b99b4"
