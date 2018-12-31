@@ -631,7 +631,7 @@
     "cty/set",
   ]
   pruneopts = "UT"
-  revision = "4fe1e489ee06ac211df6f290ed1cfdd1e14c2ac6"
+  revision = "67e3da15e4309389854d5b28eaaede43da5ca9ad"
 
 [[projects]]
   branch = "master"
