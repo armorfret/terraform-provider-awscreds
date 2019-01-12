@@ -34,7 +34,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:ddc2dbeec632aaa444697cb6eff1e8cc9e500cb9f1eb490abf8834222f56bd57"
+  digest = "1:a6c73d14f6dd6d1a04d76a8c76c0fde45ceba5e473210d22088f476ad329ebdb"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -172,8 +172,8 @@
     "service/workspaces",
   ]
   pruneopts = "UT"
-  revision = "6d55516ad2946220d9e26804f224c1c215f293ea"
-  version = "v1.16.17"
+  revision = "aabf189db35ba7eb5a35afe6d681fc0f70954fca"
+  version = "v1.16.18"
 
 [[projects]]
   digest = "1:f25dfe4538112147d22e4c8437efbc2e216112bec37277534ffe146935064ea8"
@@ -709,7 +709,7 @@
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
   pruneopts = "UT"
-  revision = "6909d8a4a91b6d3fd1c4580b6e35816be4706fef"
+  revision = "db91494dd46c1fdcbbde05e5ff5eb56df8f7d79a"
 
 [[projects]]
   digest = "1:03af1505694005143ff6dc5d0e2802c8200ddb618b1d3f7201482f53798b99b4"
