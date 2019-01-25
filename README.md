@@ -1,8 +1,8 @@
 terraform-provider-awscreds
 =========
 
-[![Build Status](https://img.shields.io/travis/com/akerl/terraform-provider-awscreds.svg)](https://travis-ci.com/akerl/terraform-provider-awscreds)
-[![GitHub release](https://img.shields.io/github/release/akerl/terraform-provider-awscreds.svg)](https://github.com/akerl/terraform-provider-awscreds/releases)
+[![Build Status](https://img.shields.io/travis/com/armorfret/terraform-provider-awscreds.svg)](https://travis-ci.com/armorfret/terraform-provider-awscreds)
+[![GitHub release](https://img.shields.io/github/release/armorfret/terraform-provider-awscreds.svg)](https://github.com/armorfret/terraform-provider-awscreds/releases)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 Terraform Provider to generate IAM access keys without storing the secret in the statefile
@@ -35,7 +35,7 @@ The "awscreds_iam_access_key" resource accepts the same options as the "aws_iam_
 
 ## Installation
 
-Go to https://github.com/akerl/terraform-provider-awscreds/releases and download the latest release for your platform, and plop it into your `~/.terraform.d/plugins` as `terraform-provider-awscreds`
+Go to https://github.com/armorfret/terraform-provider-awscreds/releases and download the latest release for your platform, and plop it into your `~/.terraform.d/plugins` as `terraform-provider-awscreds`
 
 ### Development
 
