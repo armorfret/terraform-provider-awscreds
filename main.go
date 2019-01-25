@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/akerl/terraform-provider-awscreds/provider"
+	"github.com/armorfret/terraform-provider-awscreds/provider"
 )
 
 func main() {
