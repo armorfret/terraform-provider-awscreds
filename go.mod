@@ -2,5 +2,5 @@ module github.com/armorfret/terraform-provider-awscreds
 
 require (
 	github.com/hashicorp/terraform v0.11.11
-	github.com/terraform-providers/terraform-provider-aws v1.57.0
+	github.com/terraform-providers/terraform-provider-aws v1.58.0
 )
