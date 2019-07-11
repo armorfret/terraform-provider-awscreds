@@ -1,10 +1,10 @@
 package provider
 
 import (
+	"github.com/armorfret/terraform-provider-aws/v2/aws"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws"
 )
 
 // Serve up the plugin
