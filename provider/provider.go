@@ -1,20 +1,19 @@
 package provider
 
 import (
-	"github.com/armorfret/terraform-provider-aws/v2/aws"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/armorfret/terraform-provider-aws/v4/winternal/provider"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
 
 // Serve up the plugin
 func Serve() {
 	plugin.Serve(&plugin.ServeOpts{
-		ProviderFunc: provider,
+		ProviderFunc: shimProvider,
 	})
 }
 
-func provider() terraform.ResourceProvider {
+func shimProvider() *schema.Provider {
 	return &schema.Provider{
 		Schema: awsProvider().Schema,
 		ResourcesMap: map[string]*schema.Resource{
@@ -33,17 +32,16 @@ func configure(d *schema.ResourceData) (interface{}, error) {
 }
 
 func awsProvider() *schema.Provider {
-	provider := aws.Provider()
-	return resolveProvider(provider)
+	return provider.Provider()
 }
 
 type wrapper struct {
-	provider *schema.Provider
-	config   interface{}
+	shimProvider *schema.Provider
+	config       interface{}
 }
 
 func (w *wrapper) init(p *schema.Provider, d *schema.ResourceData) error {
-	w.provider = p
+	w.shimProvider = p
 	config, err := p.ConfigureFunc(d)
 	if err != nil {
 		return err
@@ -53,9 +51,5 @@ func (w *wrapper) init(p *schema.Provider, d *schema.ResourceData) error {
 }
 
 func (w wrapper) resource(name string) *schema.Resource {
-	return w.provider.ResourcesMap[name]
-}
-
-func resolveProvider(provider terraform.ResourceProvider) *schema.Provider {
-	return provider.(*schema.Provider)
+	return w.shimProvider.ResourcesMap[name]
 }

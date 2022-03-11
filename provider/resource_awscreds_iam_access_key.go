@@ -3,7 +3,7 @@ package provider
 import (
 	"io/ioutil"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 
 var keysToSuppress = []string{"secret", "ses_smtp_password"}
