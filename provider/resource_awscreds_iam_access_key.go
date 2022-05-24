@@ -3,6 +3,7 @@ package provider
 import (
 	"context"
 	"io/ioutil"
+	"strings"
 
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
@@ -48,7 +49,14 @@ func resourceIamAccessKeyCreate(_ context.Context, d *schema.ResourceData, meta 
 
 	d.SetId(access)
 
-	contents := access + "\n" + secret + "\n"
+	contentsArray := []string{
+		"[default]",
+		"aws_access_key_id=" + access,
+		"aws_secret_access_key=" + secret,
+		"region=us-east-1",
+	}
+	contents := strings.Join(contentsArray, "\n")
+
 	file := d.Get("file").(string)
 	err = ioutil.WriteFile(file, []byte(contents), 0600)
 	if err != nil {
