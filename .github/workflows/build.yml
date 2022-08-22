@@ -38,6 +38,3 @@ jobs:
               }
             ]
           }
-
-  script: make release || travis_terminate 1
-  skip_cleanup: true
