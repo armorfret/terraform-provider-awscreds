@@ -1,3 +1,1 @@
 PACKAGE = terraform-provider-awscreds
-NAMESPACE = github.com/akerl
-ARCHLIST = amd64 arm64

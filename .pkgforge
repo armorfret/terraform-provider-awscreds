@@ -1,5 +1,5 @@
 name 'terraform-provider-awscreds'
-org 'akerl'
+org 'armorfret'
 
 source(
   type: 'git',

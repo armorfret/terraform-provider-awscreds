@@ -1,9 +1,0 @@
-Prospectus.extra_dep('file', 'prospectus_travis')
-Prospectus.extra_dep('file', 'prospectus_golang')
-
-item do
-  noop
-
-  extend ProspectusTravis::Build.new('armorfret/terraform-provider-awscreds')
-  extend ProspectusGolang::Deps.new
-end
