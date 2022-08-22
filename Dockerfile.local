@@ -1,2 +1,0 @@
-FROM dock0/pkgforge-golang
-RUN pacman -S --noconfirm bzr
