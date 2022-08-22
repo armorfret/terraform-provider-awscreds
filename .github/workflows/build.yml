@@ -6,6 +6,9 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
     env:
       PKGFORGE_STATEFILE: /tmp/pkgforge
     steps:
