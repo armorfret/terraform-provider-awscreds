@@ -20,7 +20,7 @@ build do
     cp "zips/#{zip_name}.zip", "#{zip_name}.zip"
   end
   cp 'terraform-registry-manifest.json', "#{name}_#{version}_manifest.json"
-  run "cd zips && sha256sum *.zip > #{releasedir}/#{name}_#{version}_SHA256SUMS"
+  run "cd #{releasedir} && sha256sum *.zip *.json > #{name}_#{version}_SHA256SUMS"
 
   run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
   gpgkey = '0xC0234F72057848C3'
