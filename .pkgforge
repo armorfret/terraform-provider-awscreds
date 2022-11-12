@@ -19,12 +19,12 @@ build do
     run "zip -j zips/#{zip_name}.zip zips/#{zip_name}/*"
     cp "zips/#{zip_name}.zip", "#{zip_name}.zip"
   end
-  cp 'terraform-registry-manifest.json', "terraform-provider-#{name}_#{version}_manifest.json"
-  run "cd zips && sha256sum *.zip > #{releasedir}/terraform-provider-#{name}_#{version}_SHA256SUMS"
+  cp 'terraform-registry-manifest.json', "#{name}_#{version}_manifest.json"
+  run "cd zips && sha256sum *.zip > #{releasedir}/#{name}_#{version}_SHA256SUMS"
 
   run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
   gpgkey = '0xC0234F72057848C3'
-  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign terraform-provider-#{name}_#{version}_SHA256SUMS"
+  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{version}_SHA256SUMS"
 end
 
 package(
