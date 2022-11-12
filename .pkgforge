@@ -8,19 +8,47 @@ source(
 
 build do
   run 'make local'
-  cp 'bin'
+  run 'mkdir zips'
+  %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).each do |x|
+    arch_path = x.sub('/', '_')
+    zip_name = "#{name}_#{version}_#{arch_path}"
+    run "mkdir zips/#{name}_#{version}_#{arch_path}"
+    run "cp bin/#{name}_#{arch_path} zips/#{zip_name}/#{name}_#{version}"
+    run "cp LICENSE zips/#{zip_name}/LICENSE"
+    run "zip -j zips/#{zip_name}.zip zips/#{zip_name}/*"
+    cp "zips/#{zip_name}.zip"
+  end
+  cp 'terraform-registry-manifest.json', "terraform-provider-#{name}_#{version}_manifest.json"
+  run "cd zips && sha256sum *.zip > #{releasedir}/terraform-provider-#{name}_#{version}_SHA256SUMS"
+
+  run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
+  gpgkey = '0xC0234F72057848C3'
+  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign terraform-provider-#{name}_#{version}_SHA256SUMS"
 end
 
 package(
   type: 'file',
   artifacts: %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).map do |x|
-    os, arch = x.split '/'
-    filename = "#{@forge.name}_#{os}_#{arch}"
+    arch_path = x.sub('/', '_')
+    zip_name = "#{@forge.name}_#{@forge.version}_#{arch_path}.zip"
     {
-      source: "bin/#{filename}",
-      name: filename
+      source: zip_name,
+      name: zip_name
     }
-  end
+  end.concat([
+    {
+      source: "terraform-provider-#{@forge.name}_#{@forge.version}_manifest.json",
+      name: "terraform-provider-#{@forge.name}_#{@forge.version}_manifest.json"
+    },
+    {
+      source: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS",
+      name: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS"
+    },
+    {
+      source: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS.sig",
+      name: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS.sig"
+    }
+  ])
 )
 
 test do
