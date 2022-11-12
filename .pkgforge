@@ -38,16 +38,16 @@ package(
     }
   end.concat([
     {
-      source: "terraform-provider-#{@forge.name}_#{@forge.version}_manifest.json",
-      name: "terraform-provider-#{@forge.name}_#{@forge.version}_manifest.json"
+      source: "#{@forge.name}_#{@forge.version}_manifest.json",
+      name: "#{@forge.name}_#{@forge.version}_manifest.json"
     },
     {
-      source: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS",
-      name: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS"
+      source: "#{@forge.name}_#{@forge.version}_SHA256SUMS",
+      name: "#{@forge.name}_#{@forge.version}_SHA256SUMS"
     },
     {
-      source: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS.sig",
-      name: "terraform-provider-#{@forge.name}_#{@forge.version}_SHA256SUMS.sig"
+      source: "#{@forge.name}_#{@forge.version}_SHA256SUMS.sig",
+      name: "#{@forge.name}_#{@forge.version}_SHA256SUMS.sig"
     }
   ])
 )
