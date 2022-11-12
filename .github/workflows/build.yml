@@ -18,6 +18,8 @@ jobs:
         submodules: recursive
     - name: Build
       run: make
+      env:
+        GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
     - name: Release
       if: startsWith(github.ref, 'refs/tags/')
       run: make release
