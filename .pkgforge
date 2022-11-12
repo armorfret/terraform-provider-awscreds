@@ -16,7 +16,7 @@ build do
     run "cp bin/#{name}_#{arch_path} zips/#{zip_name}/#{name}_#{version}"
     run "cp LICENSE zips/#{zip_name}/LICENSE"
     run "zip -j zips/#{zip_name}.zip zips/#{zip_name}/*"
-    cp "zips/#{zip_name}.zip"
+    cp "zips/#{zip_name}.zip", "#{zip_name}.zip"
   end
   cp 'terraform-registry-manifest.json', "terraform-provider-#{name}_#{version}_manifest.json"
   run "cd zips && sha256sum *.zip > #{releasedir}/terraform-provider-#{name}_#{version}_SHA256SUMS"
