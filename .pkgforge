@@ -7,7 +7,6 @@ source(
 )
 
 build do
-
   run 'make local'
   run 'mkdir zips'
   %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).each do |x|
@@ -28,12 +27,13 @@ build do
   run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{sversion}_SHA256SUMS"
 end
 
+sname = @forge.name
+sversion = @forge.version.sub(/^v/, '')
+
 package(
   type: 'file',
   artifacts: %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).map do |x|
     arch_path = x.sub('/', '_')
-    sname = @forge.name
-    sversion = @forge.version.sub(/^v/, '')
     zip_name = "#{sname}_#{sversion}_#{arch_path}.zip"
     {
       source: zip_name,
