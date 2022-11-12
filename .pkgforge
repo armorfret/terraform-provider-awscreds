@@ -9,9 +9,9 @@ source(
 build do
   run 'make local'
   run 'mkdir zips'
+  sversion = version.sub(/^v/, '')
   %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).each do |x|
     arch_path = x.sub('/', '_')
-    sversion = version.sub(/^v/, '')
     zip_name = "#{name}_#{sversion}_#{arch_path}"
     run "mkdir zips/#{name}_#{sversion}_#{arch_path}"
     run "cp bin/#{name}_#{arch_path} zips/#{zip_name}/#{name}_#{sversion}"
