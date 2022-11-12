@@ -12,42 +12,45 @@ build do
   run 'mkdir zips'
   %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).each do |x|
     arch_path = x.sub('/', '_')
-    zip_name = "#{name}_#{version}_#{arch_path}"
-    run "mkdir zips/#{name}_#{version}_#{arch_path}"
-    run "cp bin/#{name}_#{arch_path} zips/#{zip_name}/#{name}_#{version}"
+    sversion = version.sub(/^v/, '')
+    zip_name = "#{name}_#{sversion}_#{arch_path}"
+    run "mkdir zips/#{name}_#{sversion}_#{arch_path}"
+    run "cp bin/#{name}_#{arch_path} zips/#{zip_name}/#{name}_#{sversion}"
     run "cp LICENSE zips/#{zip_name}/LICENSE"
     run "zip -j zips/#{zip_name}.zip zips/#{zip_name}/*"
     cp "zips/#{zip_name}.zip", "#{zip_name}.zip"
   end
-  cp 'terraform-registry-manifest.json', "#{name}_#{version}_manifest.json"
-  run "cd #{releasedir} && sha256sum *.zip *.json > #{name}_#{version}_SHA256SUMS"
+  cp 'terraform-registry-manifest.json', "#{name}_#{sversion}_manifest.json"
+  run "cd #{releasedir} && sha256sum *.zip *.json > #{name}_#{sversion}_SHA256SUMS"
 
   run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
   gpgkey = '0xC0234F72057848C3'
-  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{version}_SHA256SUMS"
+  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{sversion}_SHA256SUMS"
 end
 
 package(
   type: 'file',
   artifacts: %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).map do |x|
     arch_path = x.sub('/', '_')
-    zip_name = "#{@forge.name}_#{@forge.version}_#{arch_path}.zip"
+    name = @forge.name
+    sversion = @forge.version.sub(/^v/, '')
+    zip_name = "#{name}_#{sversion}_#{arch_path}.zip"
     {
       source: zip_name,
       name: zip_name
     }
   end.concat([
     {
-      source: "#{@forge.name}_#{@forge.version}_manifest.json",
-      name: "#{@forge.name}_#{@forge.version}_manifest.json"
+      source: "#{name}_#{sversion}_manifest.json",
+      name: "#{name}_#{sversion}_manifest.json"
     },
     {
-      source: "#{@forge.name}_#{@forge.version}_SHA256SUMS",
-      name: "#{@forge.name}_#{@forge.version}_SHA256SUMS"
+      source: "#{name}_#{sversion}_SHA256SUMS",
+      name: "#{name}_#{sversion}_SHA256SUMS"
     },
     {
-      source: "#{@forge.name}_#{@forge.version}_SHA256SUMS.sig",
-      name: "#{@forge.name}_#{@forge.version}_SHA256SUMS.sig"
+      source: "#{name}_#{sversion}_SHA256SUMS.sig",
+      name: "#{name}_#{sversion}_SHA256SUMS.sig"
     }
   ])
 )
