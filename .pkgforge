@@ -7,6 +7,9 @@ source(
 )
 
 build do
+  run 'echo "$GPG_PRIVATE_KEY" | wc'
+  run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
+
   run 'make local'
   run 'mkdir zips'
   %w(darwin/amd64 darwin/arm64 linux/amd64 linux/arm linux/arm64).each do |x|
@@ -21,7 +24,6 @@ build do
   cp 'terraform-registry-manifest.json', "terraform-provider-#{name}_#{version}_manifest.json"
   run "cd zips && sha256sum *.zip > #{releasedir}/terraform-provider-#{name}_#{version}_SHA256SUMS"
 
-  run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
   gpgkey = '0xC0234F72057848C3'
   run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign terraform-provider-#{name}_#{version}_SHA256SUMS"
 end
