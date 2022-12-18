@@ -1,7 +1,7 @@
 terraform-provider-awscreds
 =========
 
-[![Build Status](https://img.shields.io/travis/com/armorfret/terraform-provider-awscreds.svg)](https://travis-ci.com/armorfret/terraform-provider-awscreds)
+[![Build Status](https://img.shields.io/travis/com/armorfactions/ret/terraform-provider-awscreds.svg)](https://travis-ci.com/armorfret/terraform-provider-awscreds)
 [![GitHub release](https://img.shields.io/github/release/armorfret/terraform-provider-awscreds.svg)](https://github.com/armorfret/terraform-provider-awscreds/releases)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
@@ -39,7 +39,7 @@ Go to https://github.com/armorfret/terraform-provider-awscreds/releases and down
 
 ### Development
 
-To build from source, clone this repo and run `make` inside it.
+To build.yml?branch=main from source, clone this repo and run `make` inside it.
 
 ## License
 
