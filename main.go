@@ -19,7 +19,7 @@ func main() {
 	opts := &plugin.ServeOpts{ProviderFunc: provider.New()}
 
 	if debugMode {
-		err := plugin.Debug(context.Background(), "terraform.scrtybybscrty.org/armorfret/awscreds", opts)
+		err := plugin.Debug(context.Background(), "https://registry.terraform.io/providers/armorfret/awscreds", opts)
 		if err != nil {
 			log.Fatal(err.Error())
 		}
