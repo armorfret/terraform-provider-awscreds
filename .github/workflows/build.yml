@@ -25,7 +25,7 @@ jobs:
       run: make release
       env:
         GITHUB_TOKEN: ${{ github.token }}
-      - name: Post to hook-exporter
+    - name: Post to hook-exporter
       run: ./.github/exporter.sh
       env:
         EXPORTER_TOKEN: ${{ secrets.EXPORTER_TOKEN }}
