@@ -6,6 +6,8 @@ source(
   path: '.'
 )
 
+USE_GPG = ENV['GPG_PRIVATE_KEY'] && ENV['GPG_PRIVATE_KEY'] != ''
+
 build do
   run 'make local'
   run 'mkdir zips'
@@ -22,7 +24,7 @@ build do
   cp 'terraform-registry-manifest.json', "#{name}_#{sversion}_manifest.json"
   run "cd #{releasedir} && sha256sum *.zip *.json > #{name}_#{sversion}_SHA256SUMS"
 
-  if ENV['GPG_PRIVATE_KEY']
+  if USE_GPG
     run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
     gpgkey = '0xC0234F72057848C3'
     run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{sversion}_SHA256SUMS"
@@ -46,7 +48,7 @@ static_files = [
 static_files << {
   source: "#{sname}_#{sversion}_SHA256SUMS.sig",
   name: "#{sname}_#{sversion}_SHA256SUMS.sig"
-} if ENV['GPG_PRIVATE_KEY']
+} if USE_GPG
 
 package(
   type: 'file',
