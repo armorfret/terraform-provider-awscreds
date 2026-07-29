@@ -3,7 +3,7 @@ module github.com/armorfret/terraform-provider-awscreds
 go 1.17
 
 require (
-	github.com/aws/aws-sdk-go v1.43.9
+	github.com/aws/aws-sdk-go v1.55.8
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.10.1
 )
 
