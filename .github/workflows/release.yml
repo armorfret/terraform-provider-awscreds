@@ -1,0 +1,24 @@
+---
+name: Release
+'on':
+  push:
+    tags:
+    - "**"
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PKGFORGE_STATEFILE: "/tmp/pkgforge"
+    steps:
+    - name: Run base CI
+      uses: akerl/.github/actions/base-tfprovider@main
+      with:
+        gpg_key: ${{ secrets.GPG_PRIVATE_KEY }}
+    - name: Release
+      if: startsWith(github.ref, 'refs/tags/')
+      run: make release
+      env:
+        GITHUB_TOKEN: "${{ github.token }}"

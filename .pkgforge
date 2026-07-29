@@ -22,13 +22,31 @@ build do
   cp 'terraform-registry-manifest.json', "#{name}_#{sversion}_manifest.json"
   run "cd #{releasedir} && sha256sum *.zip *.json > #{name}_#{sversion}_SHA256SUMS"
 
-  run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
-  gpgkey = '0xC0234F72057848C3'
-  run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{sversion}_SHA256SUMS"
+  if ENV['GPG_PRIVATE_KEY']
+    run 'echo "$GPG_PRIVATE_KEY" | gpg --import'
+    gpgkey = '0xC0234F72057848C3'
+    run "cd #{releasedir} && gpg --local-user #{gpgkey} --detach-sign #{name}_#{sversion}_SHA256SUMS"
+  end
 end
 
 sname = @forge.name
 sversion = @forge.version.sub(/^v/, '')
+
+static_files = [
+  {
+    source: "#{sname}_#{sversion}_manifest.json",
+    name: "#{sname}_#{sversion}_manifest.json"
+  },
+  {
+    source: "#{sname}_#{sversion}_SHA256SUMS",
+    name: "#{sname}_#{sversion}_SHA256SUMS"
+  }
+]
+
+static_files << {
+  source: "#{sname}_#{sversion}_SHA256SUMS.sig",
+  name: "#{sname}_#{sversion}_SHA256SUMS.sig"
+} if ENV['GPG_PRIVATE_KEY']
 
 package(
   type: 'file',
@@ -39,20 +57,7 @@ package(
       source: zip_name,
       name: zip_name
     }
-  end.concat([
-    {
-      source: "#{sname}_#{sversion}_manifest.json",
-      name: "#{sname}_#{sversion}_manifest.json"
-    },
-    {
-      source: "#{sname}_#{sversion}_SHA256SUMS",
-      name: "#{sname}_#{sversion}_SHA256SUMS"
-    },
-    {
-      source: "#{sname}_#{sversion}_SHA256SUMS.sig",
-      name: "#{sname}_#{sversion}_SHA256SUMS.sig"
-    }
-  ])
+  end.concat(static_files)
 )
 
 test do
